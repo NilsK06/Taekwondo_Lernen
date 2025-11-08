@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Lernquiz</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./images/1_1751383456.png" type="icon">
+</head>
+<body>
+  <div id="title">
+    <img src="./images/itf-logo-back-database.png" alt="ITF Logo" id="logo">
+    <h1>Lernquiz</h1>
+  </div>
+
+
+  <!-- Startscreen -->
+  <div id="startScreen">
+  <label for="username">Benutzername:</label>
+  <input type="text" id="username" placeholder="z. B. Max" />
+  <br><br>
+
+  <p>Dein Level: <span id="userLevel">–</span></p>
+  <div id="levelBarContainer">
+    <progress id="levelBar" value="0" max="100"></progress>
+  </div>
+
+  <label for="difficulty">Schwierigkeitsgrad:</label>
+  <select id="difficulty">
+    <option value="easy">Einfach</option>
+    <option value="medium" disabled>Mittel (ab Level 2)</option>
+    <option value="hard" disabled>Schwer (ab Level 4)</option>
+    <option value="extreme" disabled>Sehr Schwer (ab Level 6)</option>
+  </select>
+  <br><br>
+  <button onclick="startQuiz()">Starten</button>
+</div>
+
+
+  <!-- Quizscreen -->
+  <div id="quizScreen" class="hidden">
+    <progress id="progressBar" value="0" max="100"></progress>
+    <div id="questionContainer"></div>
+  </div>
+
+  <!-- Endscreen -->
+  <div id="endScreen" class="hidden">
+    <h2>Fertig!</h2>
+    <p id="resultText"></p>
+    <button onclick="location.reload()">Nochmal spielen</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
