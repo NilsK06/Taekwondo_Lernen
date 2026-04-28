@@ -1,0 +1,61 @@
+const questionsByCategory = {
+  grundlagen: {
+    easy: [
+      { type: "mc", question: "Wie heißt der Fauststoß?", answers: ["Ap Joomuk", "Sonkal", "Bakat Palmok"], correct: 0 },
+      {
+      type: "drag",
+      mode: "match",
+      question: "Benenne die Höhenstufen im Taekwondo. (Ziehe die Antwort in die Felder)",
+      multi: false,
+      items: [
+        { id: "nopunde", label: "Nopunde" },
+        { id: "kaunde", label: "Kaunde" },
+        { id: "najunde", label: "Najunde" },
+        { id: "yop", label: "Yop"},
+        { id: "ap", label: "Ap"},
+        { id: "yopap", label: "Yopap"}
+      ],
+      slots: [
+        { id: "ob", label: "Obere Höhenstufe" },
+        { id: "mi", label: "Mittlere Höhenstufe" },
+        { id: "un", label: "Untere Höhenstufe" }
+      ],
+      correct: { nopunde:"ob", kaunde:"mi", najunde:"un" }
+    },
+    { type: "mc", question: "Wie heißt unsere Trainingskleidung?", answers: ["Dobok", "Gi", "Hakama", "Judogi"], correct: 0},
+    { type: "mc", question: "Wie begrüßen wir uns im Training?", answers: ["Verbeugen", "Handschlag", "Kopfnuss", "Fauststoß"], correct: 0},
+    { type: "mc", question: "Welche Sprache wird für Komandos verwendet?", answers: ["Koreanisch", "Japanisch", "Chinesisch", "Englisch"], correct: 0},
+    ],
+    medium: [],
+    hard: [],
+    extreme: []
+  },
+
+  theorie: {
+    easy: [
+      { type: "mc", question: "Wofür steht ITF?", answers: ["International Taekwon-Do Federation", "Internal Training Form", "International Team Fighting"], correct: 0 },
+      { type: "mc", question: "Was bedeutet Taekwon-Do?", answers: ["Fuß-Faust-Weg", "Weg des Kriegers", "Hand- und Fußtechniken", "Kunst der Selbstverteidigung", "Fußkampf deluxe"], correct: 0},
+    ],
+    medium: [],
+    hard: [],
+    extreme: []
+  },
+
+  technik: {
+    easy: [
+      { type: "mc", question: "Was ist Sonkal?", answers: ["Handkante", "Faust", "Fußballen"], correct: 0 }
+    ],
+    medium: [],
+    hard: [],
+    extreme: []
+  },
+
+  pruefung: {
+    easy: [
+      { type: "mc", question: "Was braucht man zur Prüfung?", answers: ["Dobok", "Tennisschläger", "Boxhandschuhe"], correct: 0 }
+    ],
+    medium: [],
+    hard: [],
+    extreme: []
+  }
+};

@@ -1,71 +1,110 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lernquiz</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
   <link rel="icon" href="./images/1_1751383456.png" type="icon">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <div class="container">
+
     <div class="title">
-      <img src="./images/itf-logo-back-database.png" alt="ITF Logo" class="logo">
+      <img src="./images/itf-logo-back-database.png" class="logo">
       <h1>Lernquiz</h1>
     </div>
 
-    <!-- Startscreen -->
-    <div id="startScreen">
-      <label for="username">Benutzername:</label>
-      <input type="text" id="username" placeholder="z. B. Max" />
-      <button id="loadBtn" class="inlineBtn" title="Vorhandenen Nutzer laden" onclick="loadExistingUser()">Laden</button>
-      <br><br>
+    <!-- Kategorie Screen -->
+    <div id="categoryScreen">
+      <div class="categoryGrid">
+        <div class="categoryCard" onclick="selectCategory('grundlagen')">
+          <span class="categoryIcon">🥋</span>
+          <strong>Grundlagen</strong>
+          <small>Basics & Begriffe</small>
+        </div>
 
-      <p>Dein Level: <span id="userLevel">–</span></p>
-      <div id="levelBarContainer">
-        <progress id="levelBar" value="0" max="100"></progress>
-        <small id="xpHint">(0 / 100 XP bis zum nächsten Level)</small>
+        <div class="categoryCard" onclick="selectCategory('theorie')">
+          <span class="categoryIcon">📘</span>
+          <strong>Theorie</strong>
+          <small>Wissen & Regeln</small>
+        </div>
+
+        <div class="categoryCard" onclick="selectCategory('technik')">
+          <span class="categoryIcon">👊</span>
+          <strong>Techniken</strong>
+          <small>Schläge & Tritte</small>
+        </div>
+
+        <div class="categoryCard" onclick="selectCategory('pruefung')">
+          <span class="categoryIcon">🏆</span>
+          <strong>Prüfung</strong>
+          <small>Vorbereitung</small>
+        </div>
       </div>
-
-      <label for="difficulty">Schwierigkeitsgrad:</label>
-      <select id="difficulty">
-        <option value="easy">Einfach</option>
-        <option value="medium" disabled>Mittel (ab Level 2)</option>
-        <option value="hard" disabled>Schwer (ab Level 4)</option>
-        <option value="extreme" disabled>Sehr Schwer (ab Level 6)</option>
-      </select>
-      <br><br>
-
-      <div class="row">
-        <button onclick="startQuiz()">Starten</button>
-        <button class="secondary" onclick="resetProgress()">Fortschritt zurücksetzen</button>
-      </div>
-      <p class="muted" id="lastUserInfo"></p>
     </div>
 
-    <!-- Quizscreen -->
+    <!-- Startscreen -->
+    <div id="startScreen" class="hidden">
+
+      <div class="row">
+        <label>Benutzername:</label>
+        <input type="text" id="username">
+        <button class="inlineBtn" onclick="loadExistingUser()">Laden</button>
+      </div>
+
+      <p class="lvl">Dein Level: <span id="userLevel">–</span></p>
+
+      <progress id="levelBar" value="0" max="100"></progress>
+      <p id="xpHint">(0 / 100 XP bis zum nächsten Level)</p>
+
+      <div class="row">
+        <label>Schwierigkeit:</label>
+        <select id="difficulty">
+          <option value="easy">Einfach</option>
+          <option value="medium" disabled>Mittel</option>
+          <option value="hard" disabled>Schwer</option>
+          <option value="extreme" disabled>Sehr schwer</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <button onclick="startQuiz()" class="start">Starten</button>
+        <button class="secondary" onclick="resetProgress()">Reset</button>
+        <button class="secondary" onclick="backToCategories()">Kategorie</button>
+      </div>
+
+    </div>
+
+    <!-- Quiz -->
     <div id="quizScreen" class="hidden">
       <progress id="progressBar" value="0" max="100"></progress>
+
       <div id="questionContainer"></div>
+
+      <div id="feedback" class="feedback hidden"></div>
+
       <div class="row">
         <button class="secondary" onclick="cancelQuiz()">Abbrechen</button>
+        <button id="checkBtn" class="hidden" onclick="checkInteractiveAnswer()">Antwort prüfen</button>
+        <button id="nextBtn" class="hidden" onclick="nextQuestion()">Weiter</button>
       </div>
     </div>
 
-    <!-- Endscreen -->
+    <!-- Ende -->
     <div id="endScreen" class="hidden">
       <h2>Fertig!</h2>
       <p id="resultText"></p>
+
       <div class="row">
-        <button onclick="startQuiz()">Nochmal spielen</button>
-        <button class="backBtn secondary" onclick="backToMenu()">Zurück zum Menü</button>
+        <button onclick="startQuiz()">Nochmal</button>
+        <button class="secondary" onclick="backToMenu()">Menü</button>
       </div>
     </div>
 
-    <script src="script.js"></script>
   </div>
-</body>
 
+  <script src="script.js"></script>
+</body>
 </html>
