@@ -1,50 +1,55 @@
 {
   "grundlagen": {
-    "easy": [
-      {"type": "mc", "question": "Wie heißt der Fauststoß?", "answers": ["Ap Joomuk", "Sonkal", "Bakat Palmok"], "correct": 0},
-      {"type": "drag", "mode": "match", "question": "Benenne die Höhenstufen im Taekwondo.",
-        "multi": false,
-        "items": [
-          { "id": "nopunde", "label": "Nopunde" },
-          { "id": "kaunde", "label": "Kaunde" },
-          { "id": "najunde", "label": "Najunde" },
-          { "id": "yop", "label": "Yop" },
-          { "id": "ap", "label": "Ap" }
-        ],
-        "slots": [
-          { "id": "ob", "label": "Obere Höhenstufe" },
-          { "id": "mi", "label": "Mittlere Höhenstufe" },
-          { "id": "un", "label": "Untere Höhenstufe" }
-        ],
-        "correct": {
-          "nopunde": "ob",
-          "kaunde": "mi",
-          "najunde": "un"
-        }
-      },
-      {"type": "mc", "question": "Wie heißt unser Trainingskleidung?", "answers": ["Dobok", "Gi", "Hakama", "Judogi"], "correct": 0},
-      {"type": "mc", "question": "Wie begrüßen wir uns im Training?", "answers": ["Verbeugen", "Handschlag", "Kopfnuss", "Fauststoß"], "correct": 0}
+    "k10": [
+      {"type":"sc", "question": "Wie Heißt unsere Trainungskleidung?", "answers":["Dokok", "Gi", "Hakama", "Judogi"], "correct":0},
+      {"type":"sc", "question": "Welche Sprache wird für die Komandos im Training verwendet?", "answers":["Chinesisch", "Japanisch", "Englisch", "Koreanisch"], "correct":3},
+      {"type":"sc", "question": "Was bedeutet Charyot?", "answers":["Angriff", "Hallo", "Achtung", "Start"], "correct":2},
+      {"type":"sc", "question": "Was bedeutet Kyong-ye?", "answers":["Entspannen", "Angriff", "Stop", "Verbeugen"],"correct":3},
+      {"type":"sc", "question": "Was bedeutet Junbi?", "answers":["Vorbereitung", "Angriff", "Entspannen", "Los"], "correct":0},
+      {"type":"sc", "question": "Warum grüßen wir an?", "answers":["aus Respekt", "einfach so", "weil es lustig aussieht"], "correct":0},
+      {"type":"mc", "question": "Warum Trainieren wir barfuß?", "answers":["Für ein besseres Technikgefühl", "Für eine bessere Balance", "Man kann barfuß besser Springen", "Damit die Füße schneller wachsen"], "correct":[0,1]},
+      {"type":"sc", "question": "Was zeigt der Gürtel?", "answers":["Alter", "Rang", "Gewicht", "nichts er hält nur die Hose oben"], "correct":1},
+      {"type":"sc", "question": "Was ist ein Dobok?", "answers":["eine Technik", "ein Komando", "die Trainingskleidung", "ein korianischer Feiertag"], "correct":2},
+      {"type":"mc", "question": "Was bedeutet Respekt im Training?", "answers":["Höflichkeit", "korektes Verhalten", "rumzappeln", "durch die Gegend schauen", "mit den anderen Reden"], "correct":[0,1]},
+      {"type":"sc", "question": "Warum hört man dem Trainer zu?", "answers":["Ich höre ihm nicht zu", "um korekt zu lernen", "aus Respekt", "aus Langeweile"], "correct":[1,2]},
+      {"type":"mc", "question": "Was macht man zu beginn des Trainings?", "answers":["sich Aufstellen", "Angrüßen", "Essen", "Erzählen", "durch die Gegend schauen"], "correct":[0,1]},
+      {"type":"mc", "question": "Warum ist Aufmerksamkeit wichtig?", "answers":["Aufmerksamkeit ist nicht wichtig", "um Fehler zu vermeiden", "um unterhalten zu werden", "um zu lernen", "damit ich mit den anderen reden kann"], "correct":[1,3]},
+      {"type":"sc", "question": "Warum trainiert man regelmäßig?", "answers":["um besser zu werden", "um unterhalten zu werden", ""], "correct":0}
     ],
-    "medium": [],
-    "hard": [],
-    "extreme": []
+    "k9": [
+      {"type": "sc", "question": "Was bedeutet Charyot?", "answers":["Achtung", "Hallo", "Start", "Entspannen"], "correct":0},
+      {"type": "sc", "question": "Was bedeutet Kyong-ye?", "answers":["Verbeugen", "Stop", "Achtung", "Angriff"], "correct":0},
+      {"type": "sc", "question": "Wie heißen unsere Formen?", "answers":["Tul", "Kata", "Poomsae", "Clinch"], "correct":0},
+      {"type": "sc", "question": "Warum benutzen wie Koreanische Begriffe?", "answers":["Einheitlichkeit", "Zufall", "Schwierigkeit"], "correct": 0},
+      {"type": "mc", "question": "Wie stellen wir uns im Training auf (aus Schüler perspektieve)?", "answers":["nach Graduierung", "nach Alter", "nach Gewicht", "nach Größe", "Von Rechts nach Links", "Von vorne nach hinten", "Von Links nach Rechts", "Von hinten nach vorne"], "correct":[0,4]},
+      {"type": "sc", "question": "Mit welchem Bein gehen wir in der Regel bei einem Angriff nach vorne?", "answers":["Rechsts", "Links", "Egal"], "correct":0},
+      {"type": "sc", "question": "Mit welchem Bein gehen wir in der Regel bei einem Block nach vorne?", "answers":["Links", "Rechsts", "Egal"], "correct":0}
+    ],
+    "k8": [],
+    "k7": [],
+    "k6": [],
+    "k5": [],
+    "k4": [],
+    "k3": [],
+    "k2": [],
+    "k1": [],
+    "d1": []
   },
 
   "theorie": {
-    "easy": [
-      {
-        "type": "mc",
-        "question": "Wofür steht ITF?",
-        "answers": [
-          "International Taekwon-Do Federation",
-          "Internal Training Form",
-          "International Team Fighting"
-        ],
-        "correct": 0
-      }
+    "k10": [
+      {"type": "sc", "question": "Wofür steht ITF?", "answers": ["International Taekwon-Do Federation", "Internal Training Form", "International Team Fighting"], "correct": 0},
+      {"type": "sc", "question": "Was bedeutet Taekwon-Do?", "answers":["Fuß-Faust-Weg", "Weg der Kriegers", "Kunst der Selbstverteidigung", "Fußkampf deluxe"], "correct":0}
     ],
-    "medium": [],
-    "hard": [],
-    "extreme": []
+    "k9": [],
+    "k8": [],
+    "k7": [],
+    "k6": [],
+    "k5": [],
+    "k4": [],
+    "k3": [],
+    "k2": [],
+    "k1": [],
+    "d1": []
   }
 }

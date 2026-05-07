@@ -36,7 +36,7 @@ function shuffle(arr){
   return arr;
 }
 function getSavedDifficulty(user){
-  return localStorage.getItem(`${user}_difficulty`) || "easy";
+  return localStorage.getItem(`${user}_difficulty`) || "10-9";
 }
 
 // ---------- Boot ----------
@@ -74,12 +74,17 @@ function updateUI(){
   document.getElementById("levelBar").value = xp % 100;
   document.getElementById("xpHint").innerText = `(${xp % 100} / 100 XP bis zum nächsten Level)`;
 
-  const medium = document.querySelector("#difficulty option[value='medium']");
-  const hard   = document.querySelector("#difficulty option[value='hard']");
-  const extreme= document.querySelector("#difficulty option[value='extreme']");
-  if (medium)  medium.disabled  = level < 2;
-  if (hard)    hard.disabled    = level < 4;
-  if (extreme) extreme.disabled = level < 6;
+  const k10 = document.querySelector("#difficulty option[value='k10']");
+  const k9 = document.querySelector("#difficulty option[value= 'k9']");
+  const k8 = document.querySelector("#difficulty option[value='k8']");
+  const k7 = document.querySelector("#diffuculty option[value='k7']");
+  const k6 = document.querySelector("#difficulty option[value='k6']");
+  const k5 = document.querySelector("#difficulty option[value='k5']");
+  const k4 = document.querySelector("#difficulty option[value='k4']");
+  const k3 = document.querySelector("#difficulty option[value='k3']");
+  const k2 = document.querySelector("#difficulty option[value='k2']");
+  const k1 = document.querySelector("#difficulty option[value='k1']");
+  const d1 = document.querySelector("#difficulty option[value='d1']");  
 }
 
 // ---------- Quiz Flow ----------
@@ -98,10 +103,10 @@ function startQuiz(){
   shuffle(pool);
 
   const questionCountByDifficulty = {
-    easy: 5,
-    medium: 7,
-    hard: 10,
-    extreme: 12
+    k10: 5,
+    k8: 7,
+    k6: 10,
+    k4: 12
   };
 
   const COUNT = questionCountByDifficulty[difficulty] || 5;
@@ -153,7 +158,7 @@ function showQuestion(){
     container.appendChild(text);
   }
 
-  if (q.type === "mc"){
+  if (q.type === "sc"){
     const answersEl = document.createElement("div");
     answersEl.className = "answers";
     const shuffledAnswers = q.answers.map((answer, idx) => ({
@@ -183,7 +188,7 @@ function showQuestion(){
     container.appendChild(answersEl);
   }
 
-  if (q.type === "multi"){
+  if (q.type === "mc"){
   const answersEl = document.createElement("div");
   answersEl.className = "answers multiAnswers";
 
@@ -289,7 +294,7 @@ function checkInteractiveAnswer(){
     return;
   }
 
-  if (q.type === "multi"){
+  if (q.type === "mc"){
     const selected = [...document.querySelectorAll(".multiOption input:checked")]
       .map(cb => Number(cb.value))
       .sort((a,b) => a-b);
