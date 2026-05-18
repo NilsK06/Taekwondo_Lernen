@@ -542,21 +542,33 @@ function buildGapDragUserText(){
 }
 
 // ---------- List ----------
+function normalizeAnswer(text) {
+  return String(text)
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, " ");
+}
+
 function normalizeListInput(text) {
   return text
     .split(/[\n,]+/g)
-    .map(s => s.trim().toLowerCase())
+    .map(normalizeAnswer)
     .filter(Boolean);
 }
 
 function checkListAnswer(q) {
   const raw = document.querySelector(".listInput")?.value || "";
-  const userItems = normalizeListInput(raw);
-  const userSet = Array.from(new Set(userItems));
-  const correctSet = Array.from(new Set((q.correct || []).map(s => s.trim().toLowerCase())));
+
+  const userSet = Array.from(new Set(normalizeListInput(raw)));
+  const correctSet = Array.from(new Set((q.correct || []).map(normalizeAnswer)));
 
   if (userSet.length !== correctSet.length) return false;
-  userSet.sort(); correctSet.sort();
+
+  userSet.sort();
+  correctSet.sort();
+
   return userSet.every((v, i) => v === correctSet[i]);
 }
 

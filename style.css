@@ -220,3 +220,44 @@ label, .lvl{
 .multiOption input {
   transform: scale(1.2);
 }
+
+/* Eingabefelder */
+.gapInput, .listInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.9rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #f8fafc;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #111827;
+  transition: border-color .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+/* Größeres Textfeld */
+.listInput {
+  min-height: 150px;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+/* Fokus */
+.gapInput:focus, .listInput:focus {
+  outline: none;
+  border-color: #93c5fd;
+  background: white;
+  box-shadow: 0 0 0 4px rgba(59,130,246,.12);
+}
+
+/* Placeholder */
+.gapInput::placeholder, .listInput::placeholder {
+  color: #9ca3af;
+}
+.questionCard {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.4rem;
+  margin-top: 1rem;
+}

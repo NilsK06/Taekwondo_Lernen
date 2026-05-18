@@ -17,13 +17,28 @@
       {"type":"sc", "question": "Warum trainiert man regelmäßig?", "answers":["um besser zu werden", "um unterhalten zu werden", ""], "correct":0}
     ],
     "k9": [
-      {"type": "sc", "question": "Was bedeutet Charyot?", "answers":["Achtung", "Hallo", "Start", "Entspannen"], "correct":0},
-      {"type": "sc", "question": "Was bedeutet Kyong-ye?", "answers":["Verbeugen", "Stop", "Achtung", "Angriff"], "correct":0},
-      {"type": "sc", "question": "Wie heißen unsere Formen?", "answers":["Tul", "Kata", "Poomsae", "Clinch"], "correct":0},
-      {"type": "sc", "question": "Warum benutzen wie Koreanische Begriffe?", "answers":["Einheitlichkeit", "Zufall", "Schwierigkeit"], "correct": 0},
-      {"type": "mc", "question": "Wie stellen wir uns im Training auf (aus Schüler perspektieve)?", "answers":["nach Graduierung", "nach Alter", "nach Gewicht", "nach Größe", "Von Rechts nach Links", "Von vorne nach hinten", "Von Links nach Rechts", "Von hinten nach vorne"], "correct":[0,4]},
-      {"type": "sc", "question": "Mit welchem Bein gehen wir in der Regel bei einem Angriff nach vorne?", "answers":["Rechsts", "Links", "Egal"], "correct":0},
-      {"type": "sc", "question": "Mit welchem Bein gehen wir in der Regel bei einem Block nach vorne?", "answers":["Links", "Rechsts", "Egal"], "correct":0}
+      {"type":"gap", "question": "Wie viele Grundsätze hat das Taekwon-Do?", "correct":["5", "Fünf"]},
+      {"type":"list", "question": "Nenne die Grundsätze des Taekwon-Do.", "correct":["Höflichkeit", "Integrität", "Ausdauer", "Selbstkontrolle", "Unbezwinglicher Wille"]},
+      {"type":"gap", "question": "Wie viele Höhenstufen gibt es im Taekwon-Do?", "correct":["3", "Drei"]},
+      {"type":"drag", 
+       "mode":"match",
+       "question": "Bennene die Höhenstufen im Taekwon-Do.(Ziehe die passenden Begriffe in die richtigen Kästchen)", 
+       "multi":false, 
+       "items":[
+        {"id":"nopunde", "label":"Nopunde"},
+        {"id":"kaunde", "label":"Kaunde"},
+        {"id":"najunde", "label":"Najunde"},
+        {"id":"yop", "label":"Yop"},
+        {"id":"ap", "label":"Ap"},
+        {"id":"yopap", "label":"Yopap"}
+       ],
+       "slots":[
+        {"id":"ob", "label":"Obere Höhenstufe"},
+        {"id":"mi", "label":"Mittlere Höhenstufe"},
+        {"id":"un", "label":"Untere Höhenstufe"}
+       ],
+      "correct":{"nopunde":"ob", "kaunde":"mi", "najunde":"un"}},
+      {"type":"sc"}
     ],
     "k8": [],
     "k7": [],
