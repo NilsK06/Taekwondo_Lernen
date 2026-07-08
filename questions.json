@@ -38,7 +38,9 @@
         {"id":"un", "label":"Untere Höhenstufe"}
        ],
       "correct":{"nopunde":"ob", "kaunde":"mi", "najunde":"un"}},
-      {"type":"sc"}
+      {"type":"sc", "question": "Was bedeutet Jirugi?", "answers":["Stoß", "Tritt", "Block", "Sprung"], "correct":0},
+      {"type":"sc", "question": "Was bedeutet Makgi?", "answers":["Block", "Tritt", "Stoß", "Sprung"], "correct":0},
+      {"type":"sc", "question": "Was bedeutet Chagi?", "answers":["Tritt", "Block", "Stoß", "Sprung"], "correct":0}
     ],
     "k8": [],
     "k7": [],
@@ -66,5 +68,22 @@
     "k2": [],
     "k1": [],
     "d1": []
+  },
+  "prüfung": {
+    "k10": [],
+    "k9": [],
+    "k8": [],
+    "k7": [],
+    "k6": [],
+    "k5": [],
+    "k4": [],
+    "k3": [],
+    "k2": [],
+    "k1": [],
+    "d1": [
+      {"type":"gap", "question": "Bei der Partnerübung (Sambo, Ibo, Ilbo) stehen sich Angreifer und Verteidiger gegenüber. Der Angreifer ist bereit den Angriff für Ibo-Matsogi auszuführen und hat das Kommando gegeben (Kihap). Es wurde aber nicht abgesprochen welche Partnerübung durchgeführt werden soll. Woher kann der Verteidiger wissen, dass der Angreifer Ibo-Matsogi üben will?", "correct":["Der Angreifer steht in niunja so palmok daebi makgi"]},
+      {"type":"list", "question": "Die 5 zu erreichenden Ziele im Taekwon-Do sind?", "correct":["Höflichkeit", "Integrität", "Ausdauer", "Selbstkontrolle", "Unbezwinglicher Wille"]},
+      {"type":"gap", "question": "Beende folgenden Satz aus den Trainingsgeheimnissen: Jede Technik beginnt mit einer Gegenbewegung, ...", "correct":["wobei eine einmal begonnene Bewegung nicht unterbrochen werden darf"]}
+    ]
   }
 }
