@@ -1,0 +1,273 @@
+{
+//--------- Komandos -----------------------
+
+  "commands": [
+    {
+      "id": "junbi",
+      "category": "grundlagen",
+      "grades": ["k10", "k9"],
+
+      "korean": ["Junbi"],
+
+      "german": [
+        "Vorbereitung",
+        "Vorbereiten"
+      ],
+
+      "wrongGerman": [
+        "Achtung",
+        "Verbeugen",
+        "Beginnen"
+      ],
+
+      "wrongKorean": [
+        "Charyot",
+        "Kyong-Ye",
+        "Sijak"
+      ]
+    }
+  ],
+
+
+//--------- Körperteile -----------------------
+
+  "bodyParts": [
+    {
+  "id": "sonkal",
+  "category": "technik",
+  "grades": ["k10"],
+
+  "korean": [
+    "Sonkal"
+  ],
+
+  "german": [
+    "Handkante",
+    "Messerhand"
+  ]
+}
+  ],
+
+//-------- Richtungen -----------------------
+
+  "directions": [
+    {
+  "id": "yop",
+  "category": "technik",
+  "grades": ["k10"],
+
+  "korean": [
+    "Yop"
+  ],
+
+  "german": [
+    "Seitwärts"
+  ]
+}
+  ],
+
+//-------- Höhen -----------------------
+
+  "heights": [
+    {
+  "id": "nopunde",
+  "category": "grundlagen",
+  "grades": ["k10"],
+
+  "korean": [
+    "Nopunde"
+  ],
+
+  "german": [
+    "Obere Höhenstufe"
+  ]
+}
+  ],
+
+//-------- Stellungen -----------------------
+
+  "stances": [
+    {
+  "id": "gunnunsogi",
+  "category": "technik",
+  "grades": ["k10","k9"],
+
+  "korean": [
+    "Gunnun Sogi"
+  ],
+
+  "german": [
+    "L-Stellung"
+  ],
+
+  "length": "1.5 Schulterbreiten",
+
+  "weightDistribution": "50-50"
+}
+  ],
+
+//-------- Techniken -----------------------
+
+  "techniques": [
+    {
+  "id": "apchagi",
+  "category": "technik",
+  "grades": ["k9","k8"],
+
+  "korean": [
+    "Ap Chagi"
+  ],
+
+  "german": [
+    "Vorwärtstritt",
+    "Tritt nach vorne"
+  ],
+
+  "tool": [
+    "Fußballen",
+    "Ballen"
+  ],
+
+  "height": [
+    "Najunde",
+    "Kaunde",
+    "Nopunde"
+  ],
+
+  "direction": [
+    "nach vorne"
+  ]
+}
+  ],
+
+//-------- Prinzipien -----------------------
+
+  "principles": [
+    {
+  "id": "courtesy",
+  "category": "theorie",
+  "grades": ["k9","k8"],
+
+  "name": [
+    "Höflichkeit",
+    "Respekt"
+  ],
+
+  "description": [
+    "Respektvoller Umgang mit anderen"
+  ],
+
+  "examples": [
+    "Dem Trainer zuhören",
+    "Nicht unterbrechen",
+    "Ordentlich grüßen"
+  ]
+}
+  ],
+
+//-------- Regeln -----------------------
+
+  "rules": [
+    {
+  "id": "bow",
+
+  "category": "theorie",
+
+  "grades": ["k10"],
+
+  "question":
+    "Warum grüßen wir?",
+
+  "correct": [
+    "Aus Respekt"
+  ],
+
+  "wrong": [
+    "Aus Langeweile",
+    "Weil es lustig aussieht"
+  ]
+}
+  ],
+
+//-------- Tul -----------------------
+
+  "patterns": [
+    {
+  "id": "chonji",
+  "category": "pruefung",
+  "grades": ["k9"],
+
+  "name": "Chon-Ji",
+
+  "meaning": [
+    "Himmel und Erde"
+  ],
+
+  "movements": 19,
+
+  "diagram": "Kreuz"
+}
+  ],
+
+//-------- Gürtel Bedeutungen -----------------------
+
+  "beltMeanings": [
+    {
+  "id": "white",
+  "category": "theorie",
+  "grades": ["k10"],
+
+  "belt": "Weiß",
+
+  "meaning": [
+    "Unschuld",
+    "Anfang"
+  ]
+}
+  ],
+
+//-------- Prüfungs Situationen -----------------------
+
+  "examSituations": [
+    {
+  "id": "trainer_speaks",
+
+  "category": "pruefung",
+
+  "grades": ["k10","k9"],
+
+  "situation":
+    "Der Trainer erklärt eine Technik.",
+
+  "correct": [
+    "Zuhören",
+    "Aufmerksam sein"
+  ],
+
+  "wrong": [
+    "Reden",
+    "Herumlaufen",
+    "Spielen"
+  ]
+}
+  ],
+
+//-------- Koreanische Zahlen -----------------------
+
+  "koreanNumbers": [
+    {
+  "id": "hana",
+
+  "category": "grundlagen",
+
+  "grades": ["k10"],
+
+  "korean": [
+    "Hana"
+  ],
+
+  "number": 1
+}
+  ],
+  "manualQuestions": []
+}

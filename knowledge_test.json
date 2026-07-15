@@ -1,0 +1,44 @@
+{
+  "commands": [
+    {
+      "id": "junbi",
+      "category": "grundlagen",
+      "grades": ["k10", "k9"],
+      "korean": ["Junbi"],
+      "german": [
+        "Vorbereitung",
+        "Vorbereiten"
+      ],
+      "context": "Kommando zur Einnahme einer Vorbereitungsstellung."
+    },
+    {
+      "id": "charyot",
+      "category": "grundlagen",
+      "grades": ["k10", "k9"],
+      "korean": ["Charyot"],
+      "german": [
+        "Achtung"
+      ],
+      "context": "Wird vor dem Angrüßen verwendet."
+    }
+  ],
+
+  "techniques": [
+    {
+      "id": "ap-chagi",
+      "category": "technik",
+      "grades": ["k9", "k8"],
+      "korean": [
+        "Ap Chagi"
+      ],
+      "german": [
+        "Vorwärtstritt",
+        "Tritt nach vorne"
+      ],
+      "tool": [
+        "Fußballen",
+        "Ballen"
+      ]
+    }
+  ]
+}

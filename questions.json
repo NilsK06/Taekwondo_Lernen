@@ -1,46 +1,114 @@
 {
   "grundlagen": {
     "k10": [
-      {"type":"sc", "question": "Wie Heißt unsere Trainungskleidung?", "answers":["Dokok", "Gi", "Hakama", "Judogi"], "correct":0},
-      {"type":"sc", "question": "Welche Sprache wird für die Komandos im Training verwendet?", "answers":["Chinesisch", "Japanisch", "Englisch", "Koreanisch"], "correct":3},
-      {"type":"sc", "question": "Was bedeutet Charyot?", "answers":["Angriff", "Hallo", "Achtung", "Start"], "correct":2},
-      {"type":"sc", "question": "Was bedeutet Kyong-ye?", "answers":["Entspannen", "Angriff", "Stop", "Verbeugen"],"correct":3},
-      {"type":"sc", "question": "Was bedeutet Junbi?", "answers":["Vorbereitung", "Angriff", "Entspannen", "Los"], "correct":0},
-      {"type":"sc", "question": "Warum grüßen wir an?", "answers":["aus Respekt", "einfach so", "weil es lustig aussieht"], "correct":0},
-      {"type":"mc", "question": "Warum Trainieren wir barfuß?", "answers":["Für ein besseres Technikgefühl", "Für eine bessere Balance", "Man kann barfuß besser Springen", "Damit die Füße schneller wachsen"], "correct":[0,1]},
-      {"type":"sc", "question": "Was zeigt der Gürtel?", "answers":["Alter", "Rang", "Gewicht", "nichts er hält nur die Hose oben"], "correct":1},
-      {"type":"sc", "question": "Was ist ein Dobok?", "answers":["eine Technik", "ein Komando", "die Trainingskleidung", "ein korianischer Feiertag"], "correct":2},
-      {"type":"mc", "question": "Was bedeutet Respekt im Training?", "answers":["Höflichkeit", "korektes Verhalten", "rumzappeln", "durch die Gegend schauen", "mit den anderen Reden"], "correct":[0,1]},
-      {"type":"sc", "question": "Warum hört man dem Trainer zu?", "answers":["Ich höre ihm nicht zu", "um korekt zu lernen", "aus Respekt", "aus Langeweile"], "correct":[1,2]},
-      {"type":"mc", "question": "Was macht man zu beginn des Trainings?", "answers":["sich Aufstellen", "Angrüßen", "Essen", "Erzählen", "durch die Gegend schauen"], "correct":[0,1]},
-      {"type":"mc", "question": "Warum ist Aufmerksamkeit wichtig?", "answers":["Aufmerksamkeit ist nicht wichtig", "um Fehler zu vermeiden", "um unterhalten zu werden", "um zu lernen", "damit ich mit den anderen reden kann"], "correct":[1,3]},
-      {"type":"sc", "question": "Warum trainiert man regelmäßig?", "answers":["um besser zu werden", "um unterhalten zu werden", ""], "correct":0}
+      {
+        "type": "sc",
+        "question": "Was bedeutet Junbi?",
+        "answers": [
+          "Vorbereitung",
+          "Vorbereiten",
+          "Beginnen",
+          "Achtung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Welches Kommando bedeutet „Vorbereitung“?",
+        "answers": [
+          "Sijak",
+          "Charyot",
+          "Kyong-Ye",
+          "Junbi"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Junbi bedeutet ___.",
+        "correct": [
+          "Vorbereitung",
+          "Vorbereiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Nopunde?",
+        "answers": [
+          "Obere Höhenstufe"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Welcher koreanische Begriff bedeutet „Obere Höhenstufe“?",
+        "answers": [
+          "Nopunde"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Nopunde bedeutet ___.",
+        "correct": [
+          "Obere Höhenstufe"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Welche Zahl bedeutet Hana?",
+        "answers": [
+          "1"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt die Zahl 1 auf Koreanisch?",
+        "answers": [
+          "Hana"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Hana ist die Zahl ___.",
+        "correct": [
+          "1"
+        ]
+      }
     ],
     "k9": [
-      {"type":"gap", "question": "Wie viele Grundsätze hat das Taekwon-Do?", "correct":["5", "Fünf"]},
-      {"type":"list", "question": "Nenne die Grundsätze des Taekwon-Do.", "correct":["Höflichkeit", "Integrität", "Ausdauer", "Selbstkontrolle", "Unbezwinglicher Wille"]},
-      {"type":"gap", "question": "Wie viele Höhenstufen gibt es im Taekwon-Do?", "correct":["3", "Drei"]},
-      {"type":"drag", 
-       "mode":"match",
-       "question": "Bennene die Höhenstufen im Taekwon-Do.(Ziehe die passenden Begriffe in die richtigen Kästchen)", 
-       "multi":false, 
-       "items":[
-        {"id":"nopunde", "label":"Nopunde"},
-        {"id":"kaunde", "label":"Kaunde"},
-        {"id":"najunde", "label":"Najunde"},
-        {"id":"yop", "label":"Yop"},
-        {"id":"ap", "label":"Ap"},
-        {"id":"yopap", "label":"Yopap"}
-       ],
-       "slots":[
-        {"id":"ob", "label":"Obere Höhenstufe"},
-        {"id":"mi", "label":"Mittlere Höhenstufe"},
-        {"id":"un", "label":"Untere Höhenstufe"}
-       ],
-      "correct":{"nopunde":"ob", "kaunde":"mi", "najunde":"un"}},
-      {"type":"sc", "question": "Was bedeutet Jirugi?", "answers":["Stoß", "Tritt", "Block", "Sprung"], "correct":0},
-      {"type":"sc", "question": "Was bedeutet Makgi?", "answers":["Block", "Tritt", "Stoß", "Sprung"], "correct":0},
-      {"type":"sc", "question": "Was bedeutet Chagi?", "answers":["Tritt", "Block", "Stoß", "Sprung"], "correct":0}
+      {
+        "type": "sc",
+        "question": "Was bedeutet Junbi?",
+        "answers": [
+          "Vorbereitung",
+          "Vorbereiten",
+          "Beginnen",
+          "Achtung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Welches Kommando bedeutet „Vorbereitung“?",
+        "answers": [
+          "Sijak",
+          "Charyot",
+          "Kyong-Ye",
+          "Junbi"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Junbi bedeutet ___.",
+        "correct": [
+          "Vorbereitung",
+          "Vorbereiten"
+        ]
+      }
     ],
     "k8": [],
     "k7": [],
@@ -52,14 +120,58 @@
     "k1": [],
     "d1": []
   },
-
   "theorie": {
     "k10": [
-      {"type": "sc", "question": "Wofür steht ITF?", "answers": ["International Taekwon-Do Federation", "Internal Training Form", "International Team Fighting"], "correct": 0},
-      {"type": "sc", "question": "Was bedeutet Taekwon-Do?", "answers":["Fuß-Faust-Weg", "Weg der Kriegers", "Kunst der Selbstverteidigung", "Fußkampf deluxe"], "correct":0}
+      {
+        "type": "sc",
+        "question": "Wofür steht die Gürtelfarbe Weiß?",
+        "answers": [
+          "Unschuld",
+          "Anfang"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Die Gürtelfarbe Weiß steht für ___.",
+        "correct": [
+          "Unschuld",
+          "Anfang"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Warum grüßen wir?",
+        "answers": [
+          "Aus Respekt",
+          "Weil es lustig aussieht",
+          "Aus Langeweile"
+        ],
+        "correct": 0
+      }
     ],
-    "k9": [],
-    "k8": [],
+    "k9": [
+      {
+        "type": "sc",
+        "question": "Welches Prinzip beschreibt „Respektvoller Umgang mit anderen“?",
+        "answers": [
+          "Höflichkeit",
+          "Respekt"
+        ],
+        "correct": 0
+      }
+    ],
+    "k8": [
+      {
+        "type": "sc",
+        "question": "Welches Prinzip beschreibt „Respektvoller Umgang mit anderen“?",
+        "answers": [
+          "Höflichkeit",
+          "Respekt"
+        ],
+        "correct": 0
+      }
+    ],
     "k7": [],
     "k6": [],
     "k5": [],
@@ -69,9 +181,338 @@
     "k1": [],
     "d1": []
   },
-  "prüfung": {
-    "k10": [],
-    "k9": [],
+  "technik": {
+    "k10": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Gunnun Sogi?",
+        "answers": [
+          "L-Stellung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt die „L-Stellung“ auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Gunnun Sogi bedeutet ___.",
+        "correct": [
+          "L-Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Gunnun Sogi beträgt ___.",
+        "correct": [
+          "1.5 Schulterbreiten"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Gunnun Sogi ist ___.",
+        "correct": [
+          "50-50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Sonkal?",
+        "answers": [
+          "Messerhand",
+          "Handkante"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "sc",
+        "question": "Welcher koreanische Begriff bedeutet „Handkante“?",
+        "answers": [
+          "Sonkal"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Sonkal bedeutet ___.",
+        "correct": [
+          "Handkante",
+          "Messerhand"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Yop?",
+        "answers": [
+          "Seitwärts"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Welcher koreanische Begriff bedeutet „Seitwärts“?",
+        "answers": [
+          "Yop"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Yop bedeutet ___.",
+        "correct": [
+          "Seitwärts"
+        ]
+      }
+    ],
+    "k9": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Ap Chagi?",
+        "answers": [
+          "Tritt nach vorne",
+          "Vorwärtstritt"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt „Vorwärtstritt“ auf Koreanisch?",
+        "answers": [
+          "Ap Chagi"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Ap Chagi bedeutet ___.",
+        "correct": [
+          "Vorwärtstritt",
+          "Tritt nach vorne"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Welche Trefferfläche wird bei Ap Chagi verwendet?",
+        "answers": [
+          "Fußballen",
+          "Ballen"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Die Trefferfläche bei Ap Chagi ist ___.",
+        "correct": [
+          "Fußballen",
+          "Ballen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Ap Chagi wird in Richtung ___ ausgeführt.",
+        "correct": [
+          "nach vorne"
+        ]
+      },
+      {
+        "type": "mc",
+        "question": "In welchen Höhen kann Ap Chagi ausgeführt werden?",
+        "answers": [
+          "Nopunde",
+          "Najunde",
+          "Kaunde"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Gunnun Sogi?",
+        "answers": [
+          "L-Stellung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt die „L-Stellung“ auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Gunnun Sogi bedeutet ___.",
+        "correct": [
+          "L-Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Gunnun Sogi beträgt ___.",
+        "correct": [
+          "1.5 Schulterbreiten"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Gunnun Sogi ist ___.",
+        "correct": [
+          "50-50"
+        ]
+      }
+    ],
+    "k8": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Ap Chagi?",
+        "answers": [
+          "Tritt nach vorne",
+          "Vorwärtstritt"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt „Vorwärtstritt“ auf Koreanisch?",
+        "answers": [
+          "Ap Chagi"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Ap Chagi bedeutet ___.",
+        "correct": [
+          "Vorwärtstritt",
+          "Tritt nach vorne"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Welche Trefferfläche wird bei Ap Chagi verwendet?",
+        "answers": [
+          "Fußballen",
+          "Ballen"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Die Trefferfläche bei Ap Chagi ist ___.",
+        "correct": [
+          "Fußballen",
+          "Ballen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Ap Chagi wird in Richtung ___ ausgeführt.",
+        "correct": [
+          "nach vorne"
+        ]
+      },
+      {
+        "type": "mc",
+        "question": "In welchen Höhen kann Ap Chagi ausgeführt werden?",
+        "answers": [
+          "Nopunde",
+          "Najunde",
+          "Kaunde"
+        ],
+        "correct": []
+      }
+    ],
+    "k7": [],
+    "k6": [],
+    "k5": [],
+    "k4": [],
+    "k3": [],
+    "k2": [],
+    "k1": [],
+    "d1": []
+  },
+  "pruefung": {
+    "k10": [
+      {
+        "type": "mc",
+        "question": "Der Trainer erklärt eine Technik.",
+        "answers": [
+          "Spielen",
+          "Zuhören",
+          "Herumlaufen",
+          "Reden",
+          "Aufmerksam sein"
+        ],
+        "correct": [
+          1,
+          4
+        ]
+      }
+    ],
+    "k9": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet die Tul Chon-Ji?",
+        "answers": [
+          "Himmel und Erde"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Welche Tul bedeutet „Himmel und Erde“?",
+        "answers": [
+          "Chon-Ji"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Chon-Ji bedeutet ___.",
+        "correct": [
+          "Himmel und Erde"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Wie viele Bewegungen hat Chon-Ji?",
+        "correct": [
+          "19"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Welches Diagramm hat Chon-Ji?",
+        "correct": [
+          "Kreuz"
+        ]
+      },
+      {
+        "type": "mc",
+        "question": "Der Trainer erklärt eine Technik.",
+        "answers": [
+          "Spielen",
+          "Zuhören",
+          "Herumlaufen",
+          "Reden",
+          "Aufmerksam sein"
+        ],
+        "correct": [
+          1,
+          4
+        ]
+      }
+    ],
     "k8": [],
     "k7": [],
     "k6": [],
@@ -80,10 +521,6 @@
     "k3": [],
     "k2": [],
     "k1": [],
-    "d1": [
-      {"type":"gap", "question": "Bei der Partnerübung (Sambo, Ibo, Ilbo) stehen sich Angreifer und Verteidiger gegenüber. Der Angreifer ist bereit den Angriff für Ibo-Matsogi auszuführen und hat das Kommando gegeben (Kihap). Es wurde aber nicht abgesprochen welche Partnerübung durchgeführt werden soll. Woher kann der Verteidiger wissen, dass der Angreifer Ibo-Matsogi üben will?", "correct":["Der Angreifer steht in niunja so palmok daebi makgi"]},
-      {"type":"list", "question": "Die 5 zu erreichenden Ziele im Taekwon-Do sind?", "correct":["Höflichkeit", "Integrität", "Ausdauer", "Selbstkontrolle", "Unbezwinglicher Wille"]},
-      {"type":"gap", "question": "Beende folgenden Satz aus den Trainingsgeheimnissen: Jede Technik beginnt mit einer Gegenbewegung, ...", "correct":["wobei eine einmal begonnene Bewegung nicht unterbrochen werden darf"]}
-    ]
+    "d1": []
   }
 }
