@@ -1,0 +1,284 @@
+{
+  //--------- Kommandos -----------------------
+
+  "kommandos": [
+    {
+      "id": "junbi",
+      "kategorie": "grundlagen",
+      "graduierungen": ["k10", "k9"],
+
+      "koreanisch": ["Junbi"],
+
+      "deutsch": [
+        "Vorbereitung",
+        "Vorbereiten"
+      ],
+
+      "falschesDeutsch": [
+        "Achtung",
+        "Verbeugen",
+        "Beginnen"
+      ],
+
+      "falschesKoreanisch": [
+        "Charyot",
+        "Kyong-Ye",
+        "Sijak"
+      ]
+    }
+  ],
+
+  //--------- Körperteile -----------------------
+
+  "körperteile": [
+    {
+      "id": "sonkal",
+      "kategorie": "technik",
+      "graduierungen": ["k10"],
+
+      "koreanisch": [
+        "Sonkal"
+      ],
+
+      "deutsch": [
+        "Handkante",
+        "Messerhand"
+      ]
+    }
+  ],
+
+  //-------- Richtungen -----------------------
+
+  "richtungen": [
+    {
+      "id": "yop",
+      "kategorie": "technik",
+      "graduierungen": ["k10"],
+
+      "koreanisch": [
+        "Yop"
+      ],
+
+      "deutsch": [
+        "Seitwärts"
+      ]
+    }
+  ],
+
+  //-------- Höhen -----------------------
+
+  "höhen": [
+    {
+      "id": "nopunde",
+      "kategorie": "grundlagen",
+      "graduierungen": ["k10"],
+
+      "koreanisch": [
+        "Nopunde"
+      ],
+
+      "deutsch": [
+        "Obere Höhenstufe"
+      ]
+    }
+  ],
+
+  //-------- Stellungen -----------------------
+
+  "stellungen": [
+    {
+      "id": "gunnunsogi",
+      "kategorie": "technik",
+      "graduierungen": ["k10", "k9"],
+
+      "koreanisch": [
+        "Gunnun Sogi"
+      ],
+
+      "deutsch": [
+        "L-Stellung"
+      ],
+
+      "länge": ["1.5 Schulterbreiten"],
+
+      "breite": ["1 Schulterbreite"],
+
+      "gewichtsverteilung": ["50-50", "50/50"],
+
+      "winkelVordererFuß": ["Gerade"],
+
+      "winkelHintererFuß": [
+        "25° nach außen",
+        "25 Grad nach außen"
+      ],
+
+      "messpunktVordererFuß": [
+        "Zehenspitzen",
+        "Zehen"
+      ],
+
+      "messpunktHintererFuß": [
+        "Zehenspitzen",
+        "Zehen"
+      ]
+    }
+  ],
+
+  //-------- Techniken -----------------------
+
+  "techniken": [
+    {
+      "id": "apchagi",
+      "kategorie": "technik",
+      "graduierungen": ["k9", "k8"],
+
+      "koreanisch": [
+        "Ap Chagi"
+      ],
+
+      "deutsch": [
+        "Vorwärtstritt",
+        "Tritt nach vorne"
+      ],
+
+      "trefferfläche": [
+        "Fußballen",
+        "Ballen"
+      ],
+
+      "höhe": [
+        "Najunde",
+        "Kaunde",
+        "Nopunde"
+      ],
+
+      "richtung": [
+        "nach vorne"
+      ]
+    }
+  ],
+
+  //-------- Prinzipien -----------------------
+
+  "prinzipien": [
+    {
+      "id": "courtesy",
+      "kategorie": "theorie",
+      "graduierungen": ["k9", "k8"],
+
+      "name": [
+        "Höflichkeit",
+        "Respekt"
+      ],
+
+      "beschreibung": [
+        "Respektvoller Umgang mit anderen"
+      ],
+
+      "beispiele": [
+        "Dem Trainer zuhören",
+        "Nicht unterbrechen",
+        "Ordentlich grüßen"
+      ]
+    }
+  ],
+
+  //-------- Regeln -----------------------
+
+  "regeln": [
+    {
+      "id": "bow",
+      "kategorie": "theorie",
+      "graduierungen": ["k10"],
+
+      "frage": "Warum grüßen wir?",
+
+      "richtig": [
+        "Aus Respekt"
+      ],
+
+      "falsch": [
+        "Aus Langeweile",
+        "Weil es lustig aussieht"
+      ]
+    }
+  ],
+
+  //-------- Tul -----------------------
+
+  "formen": [
+    {
+      "id": "chonji",
+      "kategorie": "pruefung",
+      "graduierungen": ["k9"],
+
+      "name": "Chon-Ji",
+
+      "bedeutung": [
+        "Himmel und Erde"
+      ],
+
+      "bewegungen": 19,
+
+      "diagramm": "Kreuz"
+    }
+  ],
+
+  //-------- Gürtelbedeutungen -----------------------
+
+  "gürtelbedeutungen": [
+    {
+      "id": "white",
+      "kategorie": "theorie",
+      "graduierungen": ["k10"],
+
+      "gürtel": "Weiß",
+
+      "bedeutung": [
+        "Unschuld",
+        "Anfang"
+      ]
+    }
+  ],
+
+  //-------- Prüfungssituationen -----------------------
+
+  "prüfungssituationen": [
+    {
+      "id": "trainer_speaks",
+      "kategorie": "pruefung",
+      "graduierungen": ["k10", "k9"],
+
+      "situation": "Der Trainer erklärt eine Technik.",
+
+      "richtig": [
+        "Zuhören",
+        "Aufmerksam sein"
+      ],
+
+      "falsch": [
+        "Reden",
+        "Herumlaufen",
+        "Spielen"
+      ]
+    }
+  ],
+
+  //-------- Koreanische Zahlen -----------------------
+
+  "koreanischeZahlen": [
+    {
+      "id": "hana",
+      "kategorie": "grundlagen",
+      "graduierungen": ["k10"],
+
+      "koreanisch": [
+        "Hana"
+      ],
+
+      "zahl": 1
+    }
+  ],
+
+  "manuelleFragen": []
+}

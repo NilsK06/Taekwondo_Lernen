@@ -5,20 +5,20 @@
         "type": "sc",
         "question": "Was bedeutet Junbi?",
         "answers": [
-          "Vorbereitung",
           "Vorbereiten",
+          "Verbeugen",
           "Beginnen",
-          "Achtung"
+          "Vorbereitung"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "type": "sc",
-        "question": "Welches Kommando bedeutet „Vorbereitung“?",
+        "question": "Welches Kommando bedeutet \"Vorbereitung\"?",
         "answers": [
+          "Kyong-Ye",
           "Sijak",
           "Charyot",
-          "Kyong-Ye",
           "Junbi"
         ],
         "correct": 3
@@ -41,7 +41,7 @@
       },
       {
         "type": "sc",
-        "question": "Welcher koreanische Begriff bedeutet „Obere Höhenstufe“?",
+        "question": "Welcher koreanische Begriff bedeutet \"Obere Höhenstufe\"?",
         "answers": [
           "Nopunde"
         ],
@@ -83,20 +83,20 @@
         "type": "sc",
         "question": "Was bedeutet Junbi?",
         "answers": [
-          "Vorbereitung",
           "Vorbereiten",
+          "Verbeugen",
           "Beginnen",
-          "Achtung"
+          "Vorbereitung"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "type": "sc",
-        "question": "Welches Kommando bedeutet „Vorbereitung“?",
+        "question": "Welches Kommando bedeutet \"Vorbereitung\"?",
         "answers": [
+          "Kyong-Ye",
           "Sijak",
           "Charyot",
-          "Kyong-Ye",
           "Junbi"
         ],
         "correct": 3
@@ -124,12 +124,22 @@
     "k10": [
       {
         "type": "sc",
+        "question": "Warum grüßen wir?",
+        "answers": [
+          "Weil es lustig aussieht",
+          "Aus Langeweile",
+          "Aus Respekt"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "sc",
         "question": "Wofür steht die Gürtelfarbe Weiß?",
         "answers": [
-          "Unschuld",
-          "Anfang"
+          "Anfang",
+          "Unschuld"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "type": "gap",
@@ -138,38 +148,56 @@
           "Unschuld",
           "Anfang"
         ]
-      },
-      {
-        "type": "sc",
-        "question": "Warum grüßen wir?",
-        "answers": [
-          "Aus Respekt",
-          "Weil es lustig aussieht",
-          "Aus Langeweile"
-        ],
-        "correct": 0
       }
     ],
     "k9": [
       {
         "type": "sc",
-        "question": "Welches Prinzip beschreibt „Respektvoller Umgang mit anderen“?",
+        "question": "Welches Prinzip beschreibt \"Respektvoller Umgang mit anderen\"?",
         "answers": [
           "Höflichkeit",
           "Respekt"
         ],
         "correct": 0
+      },
+      {
+        "type": "mc",
+        "question": "Welche Beispiele gehören zum Prinzip \"Höflichkeit\"?",
+        "answers": [
+          "Nicht unterbrechen",
+          "Dem Trainer zuhören",
+          "Ordentlich grüßen"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
       }
     ],
     "k8": [
       {
         "type": "sc",
-        "question": "Welches Prinzip beschreibt „Respektvoller Umgang mit anderen“?",
+        "question": "Welches Prinzip beschreibt \"Respektvoller Umgang mit anderen\"?",
         "answers": [
           "Höflichkeit",
           "Respekt"
         ],
         "correct": 0
+      },
+      {
+        "type": "mc",
+        "question": "Welche Beispiele gehören zum Prinzip \"Höflichkeit\"?",
+        "answers": [
+          "Nicht unterbrechen",
+          "Dem Trainer zuhören",
+          "Ordentlich grüßen"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
       }
     ],
     "k7": [],
@@ -185,25 +213,247 @@
     "k10": [
       {
         "type": "sc",
-        "question": "Was bedeutet Gunnun Sogi?",
+        "question": "Was bedeutet Charyot Sogi?",
         "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Narani Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Sitzstellung",
+          "Achtung Stellung",
           "L-Stellung"
         ],
         "correct": 0
       },
       {
         "type": "sc",
-        "question": "Wie heißt die „L-Stellung“ auf Koreanisch?",
+        "question": "Wie heißt \"Parallele Stellung\" auf Koreanisch?",
         "answers": [
-          "Gunnun Sogi"
+          "Gunnun Sogi",
+          "Narani Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "gap",
+        "question": "Narani Sogi bedeutet ___.",
+        "correct": [
+          "Parallele Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Narani Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Narani Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "0 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Narani Sogi beträgt ___.",
+        "correct": [
+          "1 Schulterbreite",
+          "Eine Schulterbreite"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Narani Sogi?",
+        "answers": [
+          "0 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Narani Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Narani Sogi?",
+        "answers": [
+          "50-50",
+          "70/30",
+          "60/40",
+          "90/10"
         ],
         "correct": 0
       },
       {
         "type": "gap",
+        "question": "Der linke Fuß steht bei Narani Sogi ___.",
+        "correct": [
+          "Gerade"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Narani Sogi ___.",
+        "correct": [
+          "Gerade"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am linken Fuß bei Narani Sogi ist ___.",
+        "correct": [
+          "Fußaußenkante"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am rechten Fuß bei Narani Sogi ist ___.",
+        "correct": [
+          "Fußaußenkante"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Gunnun Sogi?",
+        "answers": [
+          "Gangstellung",
+          "L-Stellung",
+          "Parallele Stellung",
+          "Sitzstellung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Gangstellung\" auf Koreanisch?",
+        "answers": [
+          "Annun Sogi",
+          "Gunnun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "gap",
         "question": "Gunnun Sogi bedeutet ___.",
         "correct": [
-          "L-Stellung"
+          "Gangstellung"
         ]
       },
       {
@@ -214,10 +464,222 @@
         ]
       },
       {
+        "type": "sc",
+        "question": "Wie lang ist Gunnun Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Gunnun Sogi beträgt ___.",
+        "correct": [
+          "1 Schulterbreite"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Gunnun Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "0 Schulterbreiten",
+          "1 Schulterbreite"
+        ],
+        "correct": 3
+      },
+      {
         "type": "gap",
         "question": "Die Gewichtsverteilung bei Gunnun Sogi ist ___.",
         "correct": [
-          "50-50"
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Gunnun Sogi?",
+        "answers": [
+          "60/40",
+          "70/30",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der vordere Fuß steht bei Gunnun Sogi ___.",
+        "correct": [
+          "Gerade"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der hintere Fuß steht bei Gunnun Sogi ___.",
+        "correct": [
+          "25° nach außen",
+          "25 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am vorderen Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Fußachse"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am hinteren Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Fußachse"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am vorderen Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Zehenspitzen",
+          "Zehen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am hinteren Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Zehenspitzen",
+          "Zehen"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Niunja Sogi?",
+        "answers": [
+          "Achtung Stellung",
+          "Gangstellung",
+          "L-Stellung",
+          "Parallele Stellung"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"L-Stellung\" auf Koreanisch?",
+        "answers": [
+          "Charyot Sogi",
+          "Annun Sogi",
+          "Niunja Sogi",
+          "Gunnun Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Niunja Sogi bedeutet ___.",
+        "correct": [
+          "L-Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Niunja Sogi beträgt ___.",
+        "correct": [
+          "1.5 Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Niunja Sogi?",
+        "answers": [
+          "0 Schulterbreiten",
+          "1 Schulterbreite",
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Niunja Sogi ist ___.",
+        "correct": [
+          "70/30",
+          "70-30"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Niunja Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50/50",
+          "90/10"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Der vordere Fuß steht bei Niunja Sogi ___.",
+        "correct": [
+          "15° nach innen",
+          "15 Grad nach innen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der hintere Fuß steht bei Niunja Sogi ___.",
+        "correct": [
+          "15° nach innen",
+          "15 Grad nach innen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am vorderen Fuß bei Niunja Sogi ist ___.",
+        "correct": [
+          "Zehenspitzen",
+          "Zehen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am hinteren Fuß bei Niunja Sogi ist ___.",
+        "correct": [
+          "Fußaußenkante"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Annun Sogi?",
+        "answers": [
+          "Sitzstellung",
+          "Gangstellung",
+          "L-Stellung",
+          "Parallele Stellung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Sitzstellung\" auf Koreanisch?",
+        "answers": [
+          "Annun Sogi",
+          "Narani Sogi",
+          "Niunja Sogi",
+          "Gunnun Sogi"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Annun Sogi bedeutet ___.",
+        "correct": [
+          "Sitzstellung"
         ]
       },
       {
@@ -231,7 +693,7 @@
       },
       {
         "type": "sc",
-        "question": "Welcher koreanische Begriff bedeutet „Handkante“?",
+        "question": "Welcher koreanische Begriff bedeutet \"Handkante\"?",
         "answers": [
           "Sonkal"
         ],
@@ -255,7 +717,7 @@
       },
       {
         "type": "sc",
-        "question": "Welcher koreanische Begriff bedeutet „Seitwärts“?",
+        "question": "Welcher koreanische Begriff bedeutet \"Seitwärts\"?",
         "answers": [
           "Yop"
         ],
@@ -281,7 +743,7 @@
       },
       {
         "type": "sc",
-        "question": "Wie heißt „Vorwärtstritt“ auf Koreanisch?",
+        "question": "Wie heißt \"Vorwärtstritt\" auf Koreanisch?",
         "answers": [
           "Ap Chagi"
         ],
@@ -299,10 +761,10 @@
         "type": "sc",
         "question": "Welche Trefferfläche wird bei Ap Chagi verwendet?",
         "answers": [
-          "Fußballen",
-          "Ballen"
+          "Ballen",
+          "Fußballen"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "type": "gap",
@@ -323,8 +785,8 @@
         "type": "mc",
         "question": "In welchen Höhen kann Ap Chagi ausgeführt werden?",
         "answers": [
-          "Nopunde",
           "Najunde",
+          "Nopunde",
           "Kaunde"
         ],
         "correct": [
@@ -335,25 +797,247 @@
       },
       {
         "type": "sc",
-        "question": "Was bedeutet Gunnun Sogi?",
+        "question": "Was bedeutet Charyot Sogi?",
         "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Narani Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Sitzstellung",
+          "Achtung Stellung",
           "L-Stellung"
         ],
         "correct": 0
       },
       {
         "type": "sc",
-        "question": "Wie heißt die „L-Stellung“ auf Koreanisch?",
+        "question": "Wie heißt \"Parallele Stellung\" auf Koreanisch?",
         "answers": [
-          "Gunnun Sogi"
+          "Gunnun Sogi",
+          "Narani Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "gap",
+        "question": "Narani Sogi bedeutet ___.",
+        "correct": [
+          "Parallele Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Narani Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Narani Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "0 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Narani Sogi beträgt ___.",
+        "correct": [
+          "1 Schulterbreite",
+          "Eine Schulterbreite"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Narani Sogi?",
+        "answers": [
+          "0 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Narani Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Narani Sogi?",
+        "answers": [
+          "50-50",
+          "70/30",
+          "60/40",
+          "90/10"
         ],
         "correct": 0
       },
       {
         "type": "gap",
+        "question": "Der linke Fuß steht bei Narani Sogi ___.",
+        "correct": [
+          "Gerade"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Narani Sogi ___.",
+        "correct": [
+          "Gerade"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am linken Fuß bei Narani Sogi ist ___.",
+        "correct": [
+          "Fußaußenkante"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am rechten Fuß bei Narani Sogi ist ___.",
+        "correct": [
+          "Fußaußenkante"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Gunnun Sogi?",
+        "answers": [
+          "Gangstellung",
+          "L-Stellung",
+          "Parallele Stellung",
+          "Sitzstellung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Gangstellung\" auf Koreanisch?",
+        "answers": [
+          "Annun Sogi",
+          "Gunnun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "gap",
         "question": "Gunnun Sogi bedeutet ___.",
         "correct": [
-          "L-Stellung"
+          "Gangstellung"
         ]
       },
       {
@@ -364,10 +1048,222 @@
         ]
       },
       {
+        "type": "sc",
+        "question": "Wie lang ist Gunnun Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Gunnun Sogi beträgt ___.",
+        "correct": [
+          "1 Schulterbreite"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Gunnun Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "0 Schulterbreiten",
+          "1 Schulterbreite"
+        ],
+        "correct": 3
+      },
+      {
         "type": "gap",
         "question": "Die Gewichtsverteilung bei Gunnun Sogi ist ___.",
         "correct": [
-          "50-50"
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Gunnun Sogi?",
+        "answers": [
+          "60/40",
+          "70/30",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der vordere Fuß steht bei Gunnun Sogi ___.",
+        "correct": [
+          "Gerade"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der hintere Fuß steht bei Gunnun Sogi ___.",
+        "correct": [
+          "25° nach außen",
+          "25 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am vorderen Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Fußachse"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am hinteren Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Fußachse"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am vorderen Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Zehenspitzen",
+          "Zehen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am hinteren Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Zehenspitzen",
+          "Zehen"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Niunja Sogi?",
+        "answers": [
+          "Achtung Stellung",
+          "Gangstellung",
+          "L-Stellung",
+          "Parallele Stellung"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"L-Stellung\" auf Koreanisch?",
+        "answers": [
+          "Charyot Sogi",
+          "Annun Sogi",
+          "Niunja Sogi",
+          "Gunnun Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Niunja Sogi bedeutet ___.",
+        "correct": [
+          "L-Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Niunja Sogi beträgt ___.",
+        "correct": [
+          "1.5 Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Niunja Sogi?",
+        "answers": [
+          "0 Schulterbreiten",
+          "1 Schulterbreite",
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Niunja Sogi ist ___.",
+        "correct": [
+          "70/30",
+          "70-30"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Niunja Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50/50",
+          "90/10"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Der vordere Fuß steht bei Niunja Sogi ___.",
+        "correct": [
+          "15° nach innen",
+          "15 Grad nach innen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der hintere Fuß steht bei Niunja Sogi ___.",
+        "correct": [
+          "15° nach innen",
+          "15 Grad nach innen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am vorderen Fuß bei Niunja Sogi ist ___.",
+        "correct": [
+          "Zehenspitzen",
+          "Zehen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am hinteren Fuß bei Niunja Sogi ist ___.",
+        "correct": [
+          "Fußaußenkante"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Annun Sogi?",
+        "answers": [
+          "Sitzstellung",
+          "Gangstellung",
+          "L-Stellung",
+          "Parallele Stellung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Sitzstellung\" auf Koreanisch?",
+        "answers": [
+          "Annun Sogi",
+          "Narani Sogi",
+          "Niunja Sogi",
+          "Gunnun Sogi"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Annun Sogi bedeutet ___.",
+        "correct": [
+          "Sitzstellung"
         ]
       }
     ],
@@ -383,7 +1279,7 @@
       },
       {
         "type": "sc",
-        "question": "Wie heißt „Vorwärtstritt“ auf Koreanisch?",
+        "question": "Wie heißt \"Vorwärtstritt\" auf Koreanisch?",
         "answers": [
           "Ap Chagi"
         ],
@@ -401,10 +1297,10 @@
         "type": "sc",
         "question": "Welche Trefferfläche wird bei Ap Chagi verwendet?",
         "answers": [
-          "Fußballen",
-          "Ballen"
+          "Ballen",
+          "Fußballen"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "type": "gap",
@@ -425,21 +1321,1320 @@
         "type": "mc",
         "question": "In welchen Höhen kann Ap Chagi ausgeführt werden?",
         "answers": [
-          "Nopunde",
           "Najunde",
+          "Nopunde",
           "Kaunde"
         ],
-        "correct": []
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Charyot Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Narani Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Sitzstellung",
+          "Achtung Stellung",
+          "L-Stellung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Parallele Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Narani Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "gap",
+        "question": "Narani Sogi bedeutet ___.",
+        "correct": [
+          "Parallele Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Narani Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Narani Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "0 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Narani Sogi beträgt ___.",
+        "correct": [
+          "1 Schulterbreite",
+          "Eine Schulterbreite"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Narani Sogi?",
+        "answers": [
+          "0 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Narani Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Narani Sogi?",
+        "answers": [
+          "50-50",
+          "70/30",
+          "60/40",
+          "90/10"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Narani Sogi ___.",
+        "correct": [
+          "Gerade"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Narani Sogi ___.",
+        "correct": [
+          "Gerade"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am linken Fuß bei Narani Sogi ist ___.",
+        "correct": [
+          "Fußaußenkante"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am rechten Fuß bei Narani Sogi ist ___.",
+        "correct": [
+          "Fußaußenkante"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Gunnun Sogi?",
+        "answers": [
+          "Gangstellung",
+          "L-Stellung",
+          "Parallele Stellung",
+          "Sitzstellung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Gangstellung\" auf Koreanisch?",
+        "answers": [
+          "Annun Sogi",
+          "Gunnun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 1
+      },
+      {
+        "type": "gap",
+        "question": "Gunnun Sogi bedeutet ___.",
+        "correct": [
+          "Gangstellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Gunnun Sogi beträgt ___.",
+        "correct": [
+          "1.5 Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Gunnun Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Gunnun Sogi beträgt ___.",
+        "correct": [
+          "1 Schulterbreite"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Gunnun Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "0 Schulterbreiten",
+          "1 Schulterbreite"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Gunnun Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Gunnun Sogi?",
+        "answers": [
+          "60/40",
+          "70/30",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der vordere Fuß steht bei Gunnun Sogi ___.",
+        "correct": [
+          "Gerade"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der hintere Fuß steht bei Gunnun Sogi ___.",
+        "correct": [
+          "25° nach außen",
+          "25 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am vorderen Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Fußachse"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Breite am hinteren Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Fußachse"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am vorderen Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Zehenspitzen",
+          "Zehen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am hinteren Fuß bei Gunnun Sogi ist ___.",
+        "correct": [
+          "Zehenspitzen",
+          "Zehen"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Niunja Sogi?",
+        "answers": [
+          "Achtung Stellung",
+          "Gangstellung",
+          "L-Stellung",
+          "Parallele Stellung"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"L-Stellung\" auf Koreanisch?",
+        "answers": [
+          "Charyot Sogi",
+          "Annun Sogi",
+          "Niunja Sogi",
+          "Gunnun Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Niunja Sogi bedeutet ___.",
+        "correct": [
+          "L-Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Niunja Sogi beträgt ___.",
+        "correct": [
+          "1.5 Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Niunja Sogi?",
+        "answers": [
+          "0 Schulterbreiten",
+          "1 Schulterbreite",
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Niunja Sogi ist ___.",
+        "correct": [
+          "70/30",
+          "70-30"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Niunja Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50/50",
+          "90/10"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Der vordere Fuß steht bei Niunja Sogi ___.",
+        "correct": [
+          "15° nach innen",
+          "15 Grad nach innen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der hintere Fuß steht bei Niunja Sogi ___.",
+        "correct": [
+          "15° nach innen",
+          "15 Grad nach innen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am vorderen Fuß bei Niunja Sogi ist ___.",
+        "correct": [
+          "Zehenspitzen",
+          "Zehen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der Messpunkt für die Länge am hinteren Fuß bei Niunja Sogi ist ___.",
+        "correct": [
+          "Fußaußenkante"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Was bedeutet Annun Sogi?",
+        "answers": [
+          "Sitzstellung",
+          "Gangstellung",
+          "L-Stellung",
+          "Parallele Stellung"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Sitzstellung\" auf Koreanisch?",
+        "answers": [
+          "Annun Sogi",
+          "Narani Sogi",
+          "Niunja Sogi",
+          "Gunnun Sogi"
+        ],
+        "correct": 0
+      },
+      {
+        "type": "gap",
+        "question": "Annun Sogi bedeutet ___.",
+        "correct": [
+          "Sitzstellung"
+        ]
       }
     ],
-    "k7": [],
-    "k6": [],
-    "k5": [],
-    "k4": [],
-    "k3": [],
-    "k2": [],
-    "k1": [],
-    "d1": []
+    "k7": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Charyot Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      }
+    ],
+    "k6": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Charyot Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      }
+    ],
+    "k5": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Charyot Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      }
+    ],
+    "k4": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Charyot Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      }
+    ],
+    "k3": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Charyot Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      }
+    ],
+    "k2": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Charyot Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      }
+    ],
+    "k1": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Charyot Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      }
+    ],
+    "d1": [
+      {
+        "type": "sc",
+        "question": "Was bedeutet Charyot Sogi?",
+        "answers": [
+          "Parallele Stellung",
+          "Gangstellung",
+          "Sitzstellung",
+          "Achtung Stellung"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "sc",
+        "question": "Wie heißt \"Achtung Stellung\" auf Koreanisch?",
+        "answers": [
+          "Gunnun Sogi",
+          "Annun Sogi",
+          "Charyot Sogi",
+          "Niunja Sogi"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Charyot Sogi bedeutet ___.",
+        "correct": [
+          "Achtung Stellung"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Die Länge von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreien"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie lang ist Charyot Sogi?",
+        "answers": [
+          "1.5 Schulterbreiten",
+          "0.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Breite von Charyot Sogi beträgt ___.",
+        "correct": [
+          "0 Schulterbreiten",
+          "Null Schulterbreiten"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie breit ist Charyot Sogi?",
+        "answers": [
+          "0.5 Schulterbreiten",
+          "1.5 Schulterbreiten",
+          "1 Schulterbreite",
+          "0 Schulterbreiten"
+        ],
+        "correct": 3
+      },
+      {
+        "type": "gap",
+        "question": "Die Gewichtsverteilung bei Charyot Sogi ist ___.",
+        "correct": [
+          "50-50",
+          "50/50"
+        ]
+      },
+      {
+        "type": "sc",
+        "question": "Wie ist die Gewichtsverteilung bei Charyot Sogi?",
+        "answers": [
+          "70/30",
+          "60/40",
+          "50-50",
+          "90/10"
+        ],
+        "correct": 2
+      },
+      {
+        "type": "gap",
+        "question": "Der linke Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      },
+      {
+        "type": "gap",
+        "question": "Der rechte Fuß steht bei Charyot Sogi ___.",
+        "correct": [
+          "45° nach außen",
+          "45 Grad nach außen"
+        ]
+      }
+    ]
   },
   "pruefung": {
     "k10": [
@@ -447,14 +2642,14 @@
         "type": "mc",
         "question": "Der Trainer erklärt eine Technik.",
         "answers": [
-          "Spielen",
-          "Zuhören",
-          "Herumlaufen",
           "Reden",
-          "Aufmerksam sein"
+          "Herumlaufen",
+          "Spielen",
+          "Aufmerksam sein",
+          "Zuhören"
         ],
         "correct": [
-          1,
+          3,
           4
         ]
       }
@@ -470,7 +2665,7 @@
       },
       {
         "type": "sc",
-        "question": "Welche Tul bedeutet „Himmel und Erde“?",
+        "question": "Welche Tul bedeutet \"Himmel und Erde\"?",
         "answers": [
           "Chon-Ji"
         ],
@@ -501,14 +2696,14 @@
         "type": "mc",
         "question": "Der Trainer erklärt eine Technik.",
         "answers": [
-          "Spielen",
-          "Zuhören",
-          "Herumlaufen",
           "Reden",
-          "Aufmerksam sein"
+          "Herumlaufen",
+          "Spielen",
+          "Aufmerksam sein",
+          "Zuhören"
         ],
         "correct": [
-          1,
+          3,
           4
         ]
       }

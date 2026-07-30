@@ -4,7 +4,7 @@ const path = require("path");
 /*
  * Pfade
  *
- * knowledge.jsonc = von dir gepflegte Wissensdatei
+ * knowledge.jsonc = von mir gepflegte Wissensdatei
  * questions.json  = automatisch erzeugter Fragenkatalog
  */
 const knowledgePath = path.join(__dirname, "knowledge.jsonc");
@@ -1012,7 +1012,7 @@ koreanNumbers.forEach(entry => {
 
 /*
  * Für Fragen, die sich nicht sinnvoll automatisch erzeugen lassen,
- * kannst du in knowledge.jsonc zusätzlich "manualQuestions" pflegen:
+ * kann man in knowledge.jsonc zusätzlich "manualQuestions" pflegen:
  *
  * "manualQuestions": [
  *   {

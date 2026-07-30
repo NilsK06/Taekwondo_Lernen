@@ -1,273 +1,565 @@
 {
-//--------- Komandos -----------------------
+  //--------- Kommandos -----------------------
 
-  "commands": [
+  "kommandos": [
+
+    /*
+    Junbi
+    */
     {
       "id": "junbi",
-      "category": "grundlagen",
-      "grades": ["k10", "k9"],
+      "kategorie": "grundlagen",
+      "graduierungen": ["k10", "k9"],
 
-      "korean": ["Junbi"],
+      "koreanisch": ["Junbi"],
+      "falschesKoreanisch": ["Charyot", "Kyong-Ye", "Sijak"],
 
-      "german": [
-        "Vorbereitung",
-        "Vorbereiten"
+      "deutsch": ["Vorbereitung", "Vorbereiten"],
+      "falschesDeutsch": [ "Achtung", "Verbeugen", "Beginnen"]     
+    }
+
+    /**/
+  ],
+
+  //--------- Körperteile -----------------------
+
+  "körperteile": [
+    {
+      "id": "sonkal",
+      "kategorie": "technik",
+      "graduierungen": ["k10"],
+
+      "koreanisch": [
+        "Sonkal"
       ],
 
-      "wrongGerman": [
-        "Achtung",
-        "Verbeugen",
-        "Beginnen"
-      ],
-
-      "wrongKorean": [
-        "Charyot",
-        "Kyong-Ye",
-        "Sijak"
+      "deutsch": [
+        "Handkante",
+        "Messerhand"
       ]
     }
   ],
 
+  //-------- Richtungen -----------------------
 
-//--------- Körperteile -----------------------
-
-  "bodyParts": [
+  "richtungen": [
     {
-  "id": "sonkal",
-  "category": "technik",
-  "grades": ["k10"],
+      "id": "yop",
+      "kategorie": "technik",
+      "graduierungen": ["k10"],
 
-  "korean": [
-    "Sonkal"
+      "koreanisch": ["Yop"],
+
+      "deutsch": [
+        "Seitwärts"
+      ]
+    }
   ],
 
-  "german": [
-    "Handkante",
-    "Messerhand"
-  ]
-}
-  ],
+  //-------- Höhen -----------------------
 
-//-------- Richtungen -----------------------
-
-  "directions": [
+  "höhen": [
     {
-  "id": "yop",
-  "category": "technik",
-  "grades": ["k10"],
+      "id": "nopunde",
+      "kategorie": "grundlagen",
+      "graduierungen": ["k10"],
 
-  "korean": [
-    "Yop"
+      "koreanisch": [
+        "Nopunde"
+      ],
+
+      "deutsch": [
+        "Obere Höhenstufe"
+      ]
+    }
   ],
 
-  "german": [
-    "Seitwärts"
-  ]
-}
-  ],
+  /*-------- Stellungen -----------------------
+    MPBL = Messpunkt der Breite am linken Fuß
+    MPBR = Messpunkt der Breite am rechten Fuß 
 
-//-------- Höhen -----------------------
+    MPBV = Messpunkt der Breite am voderen Fuß
+    MPBH = Messpunkt der Breite am hinteren Fuß
 
-  "heights": [
+    MPLV = Messpunkt der Länge am vorderen Fuß
+    MPLH = Messpunkt der Lägen am hinteren Fuß
+
+    ["Charyot Sogi", "Narani Sogi", "Gunnun Sogi", "Niunja Sogi", "Annun Sogi"]
+
+    ["Achtung Stellung", "Parallele Stellung", "Gangstellung", "L-Stellung", "Sitzstellung"]
+
+    ["0 Schulterbreiten", "0.5 Schulterbreiten", "1 Schulterbreite", "1.5 Schulterbreiten"]
+  */
+
+  "stellungen": [
+    
+    /*
+    Charyot Sogi
+    */
     {
-  "id": "nopunde",
-  "category": "grundlagen",
-  "grades": ["k10"],
+      "id": "cahryotsogi",
+      "kategorie": "technik",
+      "graduierungen": ["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
 
-  "korean": [
-    "Nopunde"
-  ],
+      "koreanisch": ["Charyot Sogi"],
+      "falschesKoreanisch": ["Narani Sogi", "Gunnun Sogi", "Niunja Sogi", "Annun Sogi"],
 
-  "german": [
-    "Obere Höhenstufe"
-  ]
-}
-  ],
+      "deutsch": ["Achtung Stellung"],
+      "falschesDeutsch":["Parallele Stellung", "Gangstellung", "L-Stellung", "Sitzstellung"],
 
-//-------- Stellungen -----------------------
+      "länge":["0 Schulterbreiten", "Null Schulterbreien"],
+      "falscheLänge":["0.5 Schulterbreiten", "1 Schulterbreite", "1.5 Schulterbreiten", "2 Schulterbreiten"],
 
-  "stances": [
+      "breite":["0 Schulterbreiten", "Null Schulterbreiten"],
+      "falscheBreite":["0.5 Schulterbreiten", "1 Schulterbreite", "1.5 Schulterbreiten", "2 Schulterbreiten"],
+
+      "gewichtsverteilung":["50-50", "50/50"],
+      "falscheGewichtsverteilung":["90/10", "70/30", "60/40"],
+
+      "winkelLinkerFuß":["45° nach außen", "45 Grad nach außen"],
+      "winkelRechterFuß":["45° nach außen", "45 Grad nach außen"]
+    },
+
+    /*
+    Narani Sogi
+    */
     {
-  "id": "gunnunsogi",
-  "category": "technik",
-  "grades": ["k10","k9"],
+      "id":"naranisogi",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
 
-  "korean": [
-    "Gunnun Sogi"
-  ],
+      "koreanisch":["Narani Sogi"],
+      "falschesKoreanisch":["Charyot Sogi", "Gunnun Sogi", "Niunja Sogi", "Annun Sogi"],
 
-  "german": [
-    "L-Stellung"
-  ],
+      "deutsch":["Parallele Stellung"],
+      "falschesDeutsch":["Achtung Stellung", "Gangstellung", "L-Stellung", "Sitzstellung"],
 
-  "length": "1.5 Schulterbreiten",
+      "länge":["0 Schulterbreiten", "Null Schulterbreien"],
+      "falscheLänge":["0.5 Schulterbreiten", "1 Schulterbreite", "1.5 Schulterbreiten", "2 Schulterbreiten"],
 
-  "weightDistribution": "50-50"
-}
-  ],
+      "breite":["1 Schulterbreite", "Eine Schulterbreite"],
+      "falscheBreite":["0 Schulterbreiten", "0.5 Schulterbreiten", "1.5 Schulterbreiten", "2 Schulterbreiten"],
 
-//-------- Techniken -----------------------
+      "gewichtsverteilung":["50-50", "50/50"],
+      "falscheGewichtsverteilung":["90/10", "70/30", "60/40"],
 
-  "techniques": [
+      "winkelLinkerFuß":["Gerade"],
+      "winkelRechterFuß":["Gerade"],
+
+      "MPBL":["Fußaußenkante"],
+      "MPBR":["Fußaußenkante"]
+    },
+    
+    /*
+    Gunnun Sogi
+    */
     {
-  "id": "apchagi",
-  "category": "technik",
-  "grades": ["k9","k8"],
+      "id": "gunnunsogi",
+      "kategorie": "technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
 
-  "korean": [
-    "Ap Chagi"
-  ],
+      "koreanisch": ["Gunnun Sogi"],
+      "falschesKoreanisch":["Charyot Sogi", "Narani Sogi", "Niunja Sogi", "Annun Sogi"],
 
-  "german": [
-    "Vorwärtstritt",
-    "Tritt nach vorne"
-  ],
+      "deutsch": ["Gangstellung"],
+      "falschesDeutsch":["Achtung Stellung", "Parallele Stellung", "L-Stellung", "Sitzstellung"],
 
-  "tool": [
-    "Fußballen",
-    "Ballen"
-  ],
+      "länge": ["1.5 Schulterbreiten"],
+      "falscheLänge":["0 Schulterbreiten", "0.5 Schulterbreiten", "1 Schulterbreite", "2 Schulterbreiten"],
 
-  "height": [
-    "Najunde",
-    "Kaunde",
-    "Nopunde"
-  ],
+      "breite": ["1 Schulterbreite"],
+      "falscheBreite":["0 Schulterbreiten", "0.5 Schulterbreiten", "1.5 Schulterbreiten", "2 Schulterbreiten"],
 
-  "direction": [
-    "nach vorne"
-  ]
-}
-  ],
+      "gewichtsverteilung": ["50-50", "50/50"],
+      "falscheGewichtsverteilung":["90/10", "70/30", "60/40"],
 
-//-------- Prinzipien -----------------------
+      "winkelVordererFuß": ["Gerade"],
+      "winkelHintererFuß": ["25° nach außen", "25 Grad nach außen"],
 
-  "principles": [
+      "MPLV": ["Zehenspitzen", "Zehen"],
+      "MPLH": ["Zehenspitzen", "Zehen"],
+
+      "MPBV": ["Fußachse"],
+      "MPBH": ["Fußachse"]
+    },
+
+    /*
+    Niunja Sogi
+    */
     {
-  "id": "courtesy",
-  "category": "theorie",
-  "grades": ["k9","k8"],
+      "id":"niunjasogi",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
 
-  "name": [
-    "Höflichkeit",
-    "Respekt"
-  ],
+      "koreanisch":["Niunja Sogi"],
+      "falschesKoreanisch":["Charyot Sogi", "Narani Sogi", "Gunnun Sogi", "Annun Sogi"],
 
-  "description": [
-    "Respektvoller Umgang mit anderen"
-  ],
+      "deutsch":["L-Stellung"],
+      "falschesDeutsch":["Achtung Stellung", "Parallele Stellung", "Gangstellung", "L-Stellung", "Sitzstellung"],
 
-  "examples": [
-    "Dem Trainer zuhören",
-    "Nicht unterbrechen",
-    "Ordentlich grüßen"
-  ]
-}
-  ],
+      "länge":["1.5 Schulterbreiten"],
+      "falscheLänge":["0 Schulterbreiten", "0.5 Schulterbreiten", "1 Schulterbreite", "2 Schulterbreiten"],
 
-//-------- Regeln -----------------------
+      "breite":["Die Breite ergibt sich, wenn der dicke Zeh des vorderen Fußes und die Ferse des hinteren Fußes an dieselbe Linie in Richtung des Standes grenzen"],
+      "falscheBreite":["0.5 Schulterbreiten", "1 Schulterbreite", "1.5 Schulterbreiten", "2 Schulterbreiten"],
 
-  "rules": [
+      "gewichtsverteilung":["70/30", "70-30"],
+      "falscheGewichtsverteilung":["90/10", "60/40", "50/50"],
+      
+      "winkelVordererFuß":["15° nach innen", "15 Grad nach innen"],
+      "winkelHintererFuß":["15° nach innen", "15 Grad nach innen"],
+
+      "MPLV":["Zehenspitzen", "Zehen"],
+      "MPLH":["Fußaußenkante", "Fußaußenseite"]
+    },
+
+    /*
+    Annun Sogi
+    */
     {
-  "id": "bow",
+      "id":"annunsogi",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
 
-  "category": "theorie",
+      "koreanisch":["Annun Sogi"],
+      "falschesKoreanisch":["Charyot Sogi", "Narani Sogi", "Gunnun Sogi", "Niunja Sogi"],
 
-  "grades": ["k10"],
+      "deutsch":["Sitzstellung"],
+      "falschesDeutsch":["Achtung Stellung", "Parallele Stellung", "Gangstellung", "L-Stellung"],
 
-  "question":
-    "Warum grüßen wir?",
+      "länge":["0 Schulterbreiten", "Null Schulterbreien"],
+      "falscheLänge":["0.5 Schulterbreiten", "1 Schulterbreite", "1.5 Schulterbreiten", "2 Schulterbreiten"],
 
-  "correct": [
-    "Aus Respekt"
-  ],
+      "breite":["1.5 Schulterbreiten"],
+      "falscheBreite":["0 Schulterbreiten", "0.5 Schulterbreiten", "1 Schulterbreite", "2 Schulterbreiten"],
 
-  "wrong": [
-    "Aus Langeweile",
-    "Weil es lustig aussieht"
-  ]
-}
-  ],
+      "gewichtsverteilung":["50-50", "50/50"],
+      "falscheGewichtsverteilung":["90/10", "70/30", "60/40"],
+      
+      "winkelLinkerFuß":["Gerade"],
+      "winkelRechterFuß":["Gerade"],
 
-//-------- Tul -----------------------
+      "MPBL":["Fußinnenseite"],
+      "MPBR":["Fußinnenseite"]
+    },
 
-  "patterns": [
+    /*
+    Gojung Sogi
+    */
     {
-  "id": "chonji",
-  "category": "pruefung",
-  "grades": ["k9"],
+      "id":"gojungsogi",
+      "kategorie":"technik",
+      "graduierungen":["k6", "k5", "k4", "k3", "k2", "k1", "d1"],
 
-  "name": "Chon-Ji",
+      "koreanisch":["Gojung Sogi"],
+      "falschesKoreanisch":["Charyot Sogi", "Narani Sogi", "Gunnun Sogi", "Niunja Sogi", "Annun Sogi"],
 
-  "meaning": [
-    "Himmel und Erde"
-  ],
+      "deutsch":["Feste Stellung"],
+      "falschesDeutsch":["Achtung Stellung", "Parallele Stellung", "Gangstellung", "L-Stellung", "Sitzstellung"],
 
-  "movements": 19,
+      "länge":["1.5 Schulterbreiten"],
+      "falscheLänge":["0 Schulterbreiten", "0.5 Schulterbreiten", "1 Schulterbreite", "2 Schulterbreiten"],
 
-  "diagram": "Kreuz"
-}
-  ],
+      "breite":["Die Breite ergibt sich, wenn der dicke Zeh des vorderen Fußes und die Ferse des hinteren Fußes an dieselbe Linie in Richtung des Standes grenzen"],
+      "falscheBreite":["0 Schulterbreiten", "0.5 Schulterbreiten", "1 Schulterbreite", "1.5 Schulterbreiten", "2 Schulterbreiten"],
 
-//-------- Gürtel Bedeutungen -----------------------
+      "gewichtsverteilung":["50-50", "50/50"],
+      "falscheGewichtsverteilung":["90/10", "80/20", "70/30", "60/40"],
 
-  "beltMeanings": [
+      "winkelVordererFuß":["15 Grad nach innen", "15° nach innen"],
+      "winkelHintererFuß":["15 Grad nach innen", "15° nach innen"],
+
+      "MPLV":["Zehen", "Zehenspitzen"],
+      "MPLH":["Zehenspitzen", "Zehen"]
+    },
+
+    /*
+    Guburyo Junbi Sogi A
+    */
     {
-  "id": "white",
-  "category": "theorie",
-  "grades": ["k10"],
+      "id":"guburyojunbisogiA",
+      "kategorie":"technik",
+      "graduierungen":["k6", "k5", "k4", "k3", "k2", "k1", "d1"],
 
-  "belt": "Weiß",
+      "koreanisch":["Guburyo Junbi Sogi A"],
+      "falschesKoreanisch":["Charyot Sogi", "Narani Sogi", "Gunnun Sogi", "Niunja Sogi", "Annun Sogi", "Gojung Sogi"],
 
-  "meaning": [
-    "Unschuld",
-    "Anfang"
-  ]
-}
-  ],
+      "deutsch":["Gebeugte Vorbereitungstellung A"],
+      "falschesDeutsch":["Achtung Stellung", "Parallele Stellung", "Gangstellung", "L-Stellung", "Sitzstellung", "Feste Stellung"],
 
-//-------- Prüfungs Situationen -----------------------
+      "winkelVordererFuß":["15 Grad nach innen", "15° nach innen"]
+    },
 
-  "examSituations": [
+    /*
+    Kyocha Sogi
+    */
     {
-  "id": "trainer_speaks",
+      "id":"kyochasogi",
+      "kategorie":"technik",
+      "graduierungen":["k5", "k4", "k3", "k2", "k1", "d1"],
 
-  "category": "pruefung",
+      "koreanisch":["Kyocha Sogi"],
+      "falschesKoreanisch":["Charyot Sogi", "Narani Sogi", "Gunnun Sogi", "Niunja Sogi", "Annun Sogi", "Gojung Sogi", "Guburyo Junbi Sogi"],
 
-  "grades": ["k10","k9"],
+      "deutsch":["Gekreuzte Stellung", "X-Stellung"],
+      "falschesDeutsch":["Achtung Stellung", "Parallele Stellung", "Gangstellung", "L-Stellung", "Sitzstellung", "Feste Stellung", "Gebeute Vorbereitungsstellung"],
 
-  "situation":
-    "Der Trainer erklärt eine Technik.",
+      "gewichtsverteilung":["90/10", "90-10"],
+      "falscheGewichtsverteilung":["80/20", "70/30", "60/40", "50/50"],
 
-  "correct": [
-    "Zuhören",
-    "Aufmerksam sein"
-  ],
+      "winkelLinkerFuß":["Gerade"],
+      "winkelRechterFuß":["Gerade"]
+    },
 
-  "wrong": [
-    "Reden",
-    "Herumlaufen",
-    "Spielen"
-  ]
-}
-  ],
-
-//-------- Koreanische Zahlen -----------------------
-
-  "koreanNumbers": [
+    /*
+    Dwitbal Sogi
+    */
     {
-  "id": "hana",
+      "id":"dwitbalsogi",
+      "kategorie":"technik",
+      "graduierungen":["k4", "k3", "k2", "k1", "d1"],
 
-  "category": "grundlagen",
+      "koreanisch":["Dwitbal Sogi"],
+      "falschesKoreanisch":["Charyot Sogi", "Narani Sogi", "Gunnun Sogi", "Niunja Sogi", "Annun Sogi", "Gojung Sogi", "Guburyo Junbi Sogi", "Kyocha Sogi"],
 
-  "grades": ["k10"],
+      "deutsch":["Hinterfuß Stellung"],
+      "falschesDeutsch":["Achtung Stellung", "Parallele Stellung", "Gangstellung", "L-Stellung", "Sitzstellung", "Feste Stellung", "Gebeugte Vorbereitungsstellung", "Gekreuzte Stellung"],
 
-  "korean": [
-    "Hana"
+      "länge":["1 Schulterbreite"],
+      "falscheLänge":["0 Schulterbreiten", "0.5 Schulterbreiten", "1.5 Schulterbreiten", "2 Schulterbreiten"],
+
+      "breite":[],
+      "falscheBreite":["0 Schulterbreiten", "0.5 Schulterbreiten", "1 Schulterbreite", "1.5 Schulterbreiten", "2 Schulterbreiten"],
+
+      "gewichtsverteilung":["90/10", "90-10"],
+      "falscheGewichtsverteilung":["90/10", "80/20", "70/30", "60/40", "50/50"],
+
+      "winkelVordererFuß":["25° nach innen", "25 Grad nach innen"],
+      "winkelHintererFuß":["15 Grad nach innen", "15° nach innen"],
+
+      "MPLV":["Zehenspitzen", "Zehen"],
+      "MPLH":["Fußaußenkante", "Fußaußenseite"]
+    },
+
+    /*
+    Nachuo Sogi
+    */
+    {
+      "id":"nachuosogi",
+      "kategorie":"technik",
+      "graduierungen":["k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Nachuo Sogi"],
+      "falschesKoreanisch":["Charyot Sogi", "Narani Sogi", "Gunnun Sogi", "Niunja Sogi", "Annun Sogi", "Gojung Sogi", "Guburyo Junbi Sogi", "Kyocha Sogi", "Dwitbal Sogi"],
+
+      "deutsch":["Tiefe Stellung"],
+      "falschesDeutsch":["Achtung Stellung", "Parallele Stellung", "Gangstellung", "L-Stellung", "Sitzstellung", "Feste Stellung", "Gebeugte Vorbereitungsstellung", "Gekreuzte Stellung", "Hinterfuß Stellung"],
+
+      "länge":["1.5 Schulterbreiten"],
+      "falscheLänge":["0 Schulterbreiten", "0.5 Schulterbreiten", "1 Schulterbreite", "2 Schulterbreiten"],
+
+      "breite":["1 Schulterbreite"],
+      "falscheBreite":["0 Schulterbreiten", "0.5 Schulterbreiten", "1.5 Schulterbreiten", "2 Schulterbreiten"],
+
+      "gewichtsverteilung":["50/50", "50-50"],
+      "falscheGewichtsverteilung":["90/10", "80/20", "70/30", "60/40"],
+
+      "winkelVordererFuß":["Gerade"],
+      "winkelHintererFuß":["25° nach außen", "25 Grad nach außen"],
+
+      "MPLV":["Hacke"],
+      "MPLH":["Zehen", "Zehenspitzen"],
+
+      "MPBL":["Fußachse"],
+      "MPBR":["Fußachse"]
+    },
+
+    /*
+    Soojik Sogi
+    */
+    {
+      "id":"soojiksogi",
+      "kategorie":"technik",
+      "graduierungen":["k2", "k1", "d1"],
+
+      "koreanisch":["Soojik Sogi"],
+      "falschesKoreanisch":["Charyot Sogi", "Narani Sogi", "Gunnun Sogi", "Niunja Sogi", "Annun Sogi", "Gojung Sogi", "Guburyo Junbi Sogi", "Kyocha Sogi", "Dwitbal Sogi", "Nachuo Sogi"],
+
+      "deutsch":["Aufrechte Stellung"],
+      "falschesDeutsch":["Achtung Stellung", "Parallele Stellung", "Gangstellung", "L-Stellung", "Sitzstellung", "Feste Stellung", "Gebeugte Vorbereitungsstellung", "Gekreuzte Stellung", "Hinterfuß Stellung", "Tiefe Stellung"],
+
+      "länge":["1 Schulterbreite"],
+      "falscheLänge":["0 Schulterbreiten", "0.5 Schulterbreiten", "1.5 Schulterbreiten", "2 Schulterbreiten"],
+
+      "breite":[],
+      "falscheBreite":["0 Schulterbreiten", "0.5 Schulterbreiten", "1 Schulterbreite", "1.5 Schulterbreiten", "2 Schulterbreiten"],
+
+      "gewichtsverteilung":["60/40", "60-40"],
+      "falscheGewichtsverteilung":["90/10", "80/20", "70/30", "50/50"],
+
+      "winkelVordererFuß":["15 Grad nach innen", "15° nach innen"],
+      "winkelHintererFuß":["15 Grad nach innen", "15° nach innen"],
+
+      "MPLV":["Zehen", "Zehenspitzen"],
+      "MPLH":["Fußaußenkante", "Fußaußenseite"]
+    }
   ],
 
-  "number": 1
-}
+  //-------- Techniken -----------------------
+
+  "techniken": [
+    {
+      "id": "apchagi",
+      "kategorie": "technik",
+      "graduierungen": ["k9", "k8"],
+
+      "koreanisch": [
+        "Ap Chagi"
+      ],
+
+      "deutsch": [
+        "Vorwärtstritt",
+        "Tritt nach vorne"
+      ],
+
+      "trefferfläche": [
+        "Fußballen",
+        "Ballen"
+      ],
+
+      "höhe": [
+        "Najunde",
+        "Kaunde",
+        "Nopunde"
+      ],
+
+      "richtung": [
+        "nach vorne"
+      ]
+    }
   ],
-  "manualQuestions": []
+
+  //-------- Prinzipien -----------------------
+
+  "prinzipien": [
+    {
+      "id": "courtesy",
+      "kategorie": "theorie",
+      "graduierungen": ["k9", "k8"],
+
+      "name": [
+        "Höflichkeit",
+        "Respekt"
+      ],
+
+      "beschreibung": [
+        "Respektvoller Umgang mit anderen"
+      ],
+
+      "beispiele": [
+        "Dem Trainer zuhören",
+        "Nicht unterbrechen",
+        "Ordentlich grüßen"
+      ]
+    }
+  ],
+
+  //-------- Regeln -----------------------
+
+  "regeln": [
+    {
+      "id": "bow",
+      "kategorie": "theorie",
+      "graduierungen": ["k10"],
+
+      "frage": "Warum grüßen wir?",
+
+      "richtig": [
+        "Aus Respekt"
+      ],
+
+      "falsch": [
+        "Aus Langeweile",
+        "Weil es lustig aussieht"
+      ]
+    }
+  ],
+
+  //-------- Tul -----------------------
+
+  "formen": [
+    {
+      "id": "chonji",
+      "kategorie": "pruefung",
+      "graduierungen": ["k9"],
+
+      "name": "Chon-Ji",
+
+      "bedeutung": [
+        "Himmel und Erde"
+      ],
+
+      "bewegungen": 19,
+
+      "diagramm": "Kreuz"
+    }
+  ],
+
+  //-------- Gürtelbedeutungen -----------------------
+
+  "gürtelbedeutungen": [
+    {
+      "id": "white",
+      "kategorie": "theorie",
+      "graduierungen": ["k10"],
+
+      "gürtel": "Weiß",
+
+      "bedeutung": [
+        "Unschuld",
+        "Anfang"
+      ]
+    }
+  ],
+
+  //-------- Prüfungssituationen -----------------------
+
+  "prüfungssituationen": [
+    {
+      "id": "trainer_speaks",
+      "kategorie": "pruefung",
+      "graduierungen": ["k10", "k9"],
+
+      "situation": "Der Trainer erklärt eine Technik.",
+
+      "richtig": [
+        "Zuhören",
+        "Aufmerksam sein"
+      ],
+
+      "falsch": [
+        "Reden",
+        "Herumlaufen",
+        "Spielen"
+      ]
+    }
+  ],
+
+  //-------- Koreanische Zahlen -----------------------
+
+  "koreanischeZahlen": [
+    {
+      "id": "hana",
+      "kategorie": "grundlagen",
+      "graduierungen": ["k10"],
+
+      "koreanisch": [
+        "Hana"
+      ],
+
+      "zahl": 1
+    }
+  ],
+
+  "manuelleFragen": []
 }
