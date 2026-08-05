@@ -24,6 +24,10 @@
   //--------- Körperteile -----------------------
 
   "körperteile": [
+
+    /*
+    Sonkal
+    */
     {
       "id": "sonkal",
       "kategorie": "technik",
@@ -37,7 +41,20 @@
         "Handkante",
         "Messerhand"
       ]
+    },
+
+    /*
+    Bakat Palmok
+    */
+    {
+      "id":"bakatpalmok",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+      
+      "koreanisch":["Bakat Palmok"],
+      "falschesKoreanisch":[]
     }
+
   ],
 
   //-------- Richtungen -----------------------
