@@ -4,21 +4,110 @@
   "kommandos": [
 
     /*
+    Charyot
+    */
+    {
+      "id":"charyot",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Charyot"],
+      "falschesKoreanisch":["Kyong-ye", "Junbi", "Sijak", "Hechyo", "Gesok", "Guman"],
+
+      "deutsch":["Achtung"],
+      "falschesDeutsch":["Verbeugen", "Vorbereiten", "Beginn", "Trennen", "Weitermachen", "Ende"]
+    },
+
+    /*
+    Kyong-ye
+    */
+    {
+      "id":"kyongye",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Kyong-ye"],
+      "falschesKoreanisch":["Charyot", "Junbi", "Sijak", "Hechyo", "Gesok", "Guman"],
+
+      "deutsch":["Verbeugen"],
+      "falschesDeutsch":["Achtung", "Vorbereiten", "Beginn", "Trennen", "Weitermachen", "Ende"]
+    },
+
+    /*
     Junbi
     */
     {
       "id": "junbi",
       "kategorie": "grundlagen",
-      "graduierungen": ["k10", "k9"],
+      "graduierungen": ["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
 
       "koreanisch": ["Junbi"],
-      "falschesKoreanisch": ["Charyot", "Kyong-Ye", "Sijak"],
+      "falschesKoreanisch":["Charyot", "Kyong-ye", "Sijak", "Hechyo", "Gesok", "Guman"],
 
       "deutsch": ["Vorbereitung", "Vorbereiten"],
-      "falschesDeutsch": [ "Achtung", "Verbeugen", "Beginnen"]     
+      "falschesDeutsch":["Achtung", "Verbeugen", "Beginn", "Trennen", "Weitermachen", "Ende"]     
+    },
+
+    /*
+    Siajk
+    */
+    {
+      "id":"sijak",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Sijak"],
+      "falschesKoreanisch":["Charyot", "Kyong-ye", "Junbi", "Hechyo", "Gesok", "Guman"],
+
+      "deutsch":["Beginn"],
+      "falschesDeutsch":["Achtung", "Verbeugen", "Vorbereiten", "Trennen", "Weitermachen", "Ende"]
+    },
+
+    /*
+    Hechyo
+    */
+    {
+      "id":"hechyo",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Hechyo"],
+      "falschesKoreanisch":["Charyot", "Kyong-ye", "Junbi", "Sijak", "Gesok", "Guman"],
+
+      "deutsch":["Trennen"],
+      "falschesDeutsch":["Achtung", "Verbeugen", "Vorbereiten", "Beginn", "Weitermachen", "Ende"]
+    },
+
+    /*
+    Gesok
+    */
+    {
+      "id":"gesok",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Gesok"],
+      "falschesKoreanisch":["Charyot", "Kyong-ye", "Junbi", "Sijak", "Hechyo", "Guman"],
+
+      "deutsch":["Weitermachen"],
+      "falschesDeutsch":["Achtung", "Verbeugen", "Vorbereiten", "Beginn", "Trennen", "Ende"]
+    },
+
+    /*
+    Guman
+    */
+    {
+      "id":"guman",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Guman"],
+      "falschesKoreanisch":["Charyot", "Kyong-ye", "Junbi", "Sijak", "Hechyo", "Gesok"],
+
+      "deutsch":["Ende"],
+      "falschesDeutsch":["Achtung", "Verbeugen", "Vorbereiten", "Beginn", "Trennen", "Weitermachen"]
     }
 
-    /**/
   ],
 
   //--------- Körperteile -----------------------
@@ -60,18 +149,84 @@
   //-------- Richtungen -----------------------
 
   "richtungen": [
+
+    /*
+    Ap
+    */
     {
-      "id": "yop",
-      "kategorie": "technik",
-      "graduierungen": ["k10"],
+      "id":"ap",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
 
-      "koreanisch": ["Yop"],
+      "korenaisch":["Ap"],
+      "falschesKoreanisch":["Yopap", "Yop", "Yopdwi", "Dwit"],
 
-      "deutsch": [
-        "Seitwärts"
-      ]
+      "deutsch":["Vorne"],
+      "falschesDeutsch":["Seitlich nach Vorne", "Seitlich", "Seitlich nach hinten", "Hinten"]
+    },
+
+    /*
+    Yopap
+    */
+    {
+      "id":"yopap",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "korenaisch":["Yopap"],
+      "falschesKoreanisch":["Ap", "Yop", "Yopdwi", "Dwit"],
+
+      "deutsch":["Seitlich nach Vorne"],
+      "falschesDeutsch":["Vorne", "Seitlich", "Seitlich nach hinten", "Hinten"]
+    },
+
+    /*
+    Yop
+    */
+    {
+      "id":"yop",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "korenaisch":["Yop"],
+      "falschesKoreanisch":["Ap", "Yopap","Yopdwi", "Dwit"],
+
+      "deutsch":["Seitlich"],
+      "falschesDeutsch":["Vorne", "Seitlich nach Vorne", "Seitlich nach hinten", "Hinten"]
+    },
+
+    /*
+    Yopdwi
+    */
+    {
+      "id":"yopdwi",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "korenaisch":["Yopdwi"],
+      "falschesKoreanisch":["Ap", "Yopap", "Yop", "Dwit"],
+
+      "deutsch":["Seitlich nach Hinten"],
+      "falschesDeutsch":["Vorne", "Seitlich nach Vorne", "Seitlich", "Hinten"]
+    },
+
+    /*
+    Dwit
+    */
+    {
+      "id":"dwit",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "korenaisch":["Dwit"],
+      "falschesKoreanisch":["Ap", "Yopap", "Yop", "Yopdwi"],
+
+      "deutsch":["Hinten"],
+      "falschesDeutsch":["Vorne", "Seitlich nach Vorne", "Seitlich", "Seitlich nach hinten"]
     }
+
   ],
+
 
   //-------- Höhen -----------------------
 
@@ -84,10 +239,36 @@
       "koreanisch": [
         "Nopunde"
       ],
+      "falschesKoreanisch":["Kaunde", "Najunde"],
 
       "deutsch": [
         "Obere Höhenstufe"
-      ]
+      ],
+      "falschesDeutsch":["Mittlere Höhenstufe", "Untere Höhenstufe"]
+    },   
+
+    {
+      "id":"kaunde",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10"],
+
+      "koreanisch":["Kaunde"],
+      "falschesKoreanisch":["Nopunde", "Najunde"],
+
+      "deutsch":["Mittlere Höhenstufe"],
+      "falschesDeutsch":["Obere Höhenstufe", "Untere Höhenstufe"]
+    },
+
+    {
+      "id":"najunde",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10"],
+
+      "koreanisch":["Najunde"],
+      "falschesKoreanisch":["Nopunde", "Kaunde"],
+
+      "deutsch":["Untere Höhenstufe"],
+      "falschesDeutsch":["Obere Höhenstufe", "Mittlere Höhenstufe"]
     }
   ],
 
@@ -100,12 +281,6 @@
 
     MPLV = Messpunkt der Länge am vorderen Fuß
     MPLH = Messpunkt der Lägen am hinteren Fuß
-
-    ["Charyot Sogi", "Narani Sogi", "Gunnun Sogi", "Niunja Sogi", "Annun Sogi"]
-
-    ["Achtung Stellung", "Parallele Stellung", "Gangstellung", "L-Stellung", "Sitzstellung"]
-
-    ["0 Schulterbreiten", "0.5 Schulterbreiten", "1 Schulterbreite", "1.5 Schulterbreiten"]
   */
 
   "stellungen": [
@@ -460,9 +635,9 @@
 
   "prinzipien": [
     {
-      "id": "courtesy",
+      "id": "hoeflichkeit",
       "kategorie": "theorie",
-      "graduierungen": ["k9", "k8"],
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
 
       "name": [
         "Höflichkeit",
@@ -565,17 +740,187 @@
   //-------- Koreanische Zahlen -----------------------
 
   "koreanischeZahlen": [
+
+    /*
+    1
+    */
     {
       "id": "hana",
       "kategorie": "grundlagen",
       "graduierungen": ["k10"],
 
-      "koreanisch": [
-        "Hana"
-      ],
+      "koreanisch": ["Hana"],
+      "falschesKoreanisch":["Dul", "Set", "Net", "Daseot", "Yeoseot", "Ilgop", "Yeodeol", "Ahop", "Yeol"],
 
-      "zahl": 1
+      "deutsch":["Eins"],
+      "falschesDeutsch":["Zwei", "Drei", "Vier", "Fünf", "Sechs", "Sieben", "Acht", "Neun", "Zehn"],
+
+      "zahl":["1"],
+      "falscheZahlen":["2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },
+
+    /*
+    2
+    */
+    {
+      "id":"dul",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Dul"],
+      "falschesKoreanisch":["Hana", "Set", "Net", "Daseot", "Yeoseot", "Ilgop", "Yeodeol", "Ahop", "Yeol"],
+
+      "deutsch":["Zwei"],
+      "falschesDeutsch":["Eins", "Drei", "Vier", "Fünf", "Sechs", "Sieben", "Acht", "Neun", "Zehn"],
+
+      "zahl":["2"],
+      "falscheZahlen":["1", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },
+
+    /*
+    3
+    */
+    {
+      "id":"set",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Set"],
+      "falschesKoreanisch":["Hana", "Dul", "Net", "Daseot", "Yeoseot", "Ilgop", "Yeodeol", "Ahop", "Yeol"],
+
+      "deutsch":["Drei"],
+      "falschesDeutsch":["Eins", "Zwei", "Vier", "Fünf", "Sechs", "Sieben", "Acht", "Neun", "Zehn"],
+
+      "zahl":["3"],
+      "falscheZahlen":["1", "2", "4", "5", "6", "7", "8", "9", "10"]
+    },
+
+    /*
+    4
+    */
+    {
+      "id":"net",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Net"],
+      "falschesKoreanisch":["Hana", "Dul", "Set", "Daseot", "Yeoseot", "Ilgop", "Yeodeol", "Ahop", "Yeol"],
+
+      "deutsch":["Vier"],
+      "falschesDeutsch":["Eins", "Zwei", "Drei", "Fünf", "Sechs", "Sieben", "Acht", "Neun", "Zehn"],
+
+      "zahl":["4"],
+      "falscheZahlen":["1", "2", "3", "5", "6", "7", "8", "9", "10"]
+    },
+
+    /*
+    5
+    */
+    {
+      "id":"daseot",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Daseot"],
+      "falschesKoreanisch":["Hana", "Dul", "Set", "Net", "Yeoseot", "Ilgop", "Yeodeol", "Ahop", "Yeol"],
+
+      "deutsch":["Fünf"],
+      "falschesDeutsch":["Eins", "Zwei", "Drei", "Vier", "Sechs", "Sieben", "Acht", "Neun", "Zehn"],
+
+      "zahl":["5"],
+      "falscheZahlen":["1", "2", "3", "4", "6", "7", "8", "9", "10"]
+    },
+
+    /*
+    6
+    */
+    {
+      "id":"yeoseot",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Yeoseot"],
+      "falschesKoreanisch":["Hana", "Dul", "Set", "Net", "Daseot", "Ilgop", "Yeodeol", "Ahop", "Yeol"],
+
+      "deutsch":["Sechs"],
+      "falschesDeutsch":["Eins", "Zwei", "Drei", "Vier", "Fünf", "Sieben", "Acht", "Neun", "Zehn"],
+
+      "zahl":["6"],
+      "falscheZahlen":["1", "2", "3", "4", "5", "7", "8", "9", "10"]
+    },
+
+    /*
+    7
+    */
+    {
+      "id":"ilgop",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Ilgop"],
+      "falschesKoreanisch":["Hana", "Dul", "Set", "Net", "Daseot", "Yeoseot", "Yeodeol", "Ahop", "Yeol"],
+
+      "deutsch":["Sieben"],
+      "falschesDeutsch":["Eins", "Zwei", "Drei", "Vier", "Fünf", "Sechs", "Acht", "Neun", "Zehn"],
+
+      "zahl":["7"],
+      "falscheZahlen":["1", "2", "3", "4", "5", "6", "8", "9", "10"]
+    },
+
+    /*
+    8
+    */
+    {
+      "id":"yeodeol",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Yeodeol"],
+      "falschesKoreanisch":["Hana", "Dul", "Set", "Net", "Daseot", "Yeoseot", "Ilgop", "Ahop", "Yeol"],
+
+      "deutsch":["Acht"],
+      "falschesDeutsch":["Eins", "Zwei", "Drei", "Vier", "Fünf", "Sechs", "Sieben", "Neun", "Zehn"],
+
+      "zahl":["8"],
+      "falscheZahlen":["1", "2", "3", "4", "5", "6", "7", "9", "10"]
+    },
+
+    /*
+    9
+    */
+    {
+      "id":"ahop",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Ahop"],
+      "falschesKoreanisch":["Hana", "Dul", "Set", "Net", "Daseot", "Yeoseot", "Ilgop", "Yeodeol", "Yeol"],
+
+      "deutsch":["Neun"],
+      "falschesDeutsch":["Eins", "Zwei", "Drei", "Vier", "Fünf", "Sechs", "Sieben", "Acht", "Zehn"],
+
+      "zahl":["9"],
+      "falscheZahlen":["1", "2", "3", "4", "5", "6", "7", "8", "10"]
+    },
+
+    /*
+    10
+    */
+    {
+      "id":"yeol",
+      "kategorie":"grundlagen",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Yeol"],
+      "falschesKoreanisch":["Hana", "Dul", "Set", "Net", "Daseot", "Yeoseot", "Ilgop", "Yeodeol", "Ahop"],
+
+      "deutsch":["Zehn"],
+      "falschesDeutsch":["Eins", "Zwei", "Drei", "Vier", "Fünf", "Sechs", "Sieben", "Acht", "Neun"],
+
+      "zahl":["10"],
+      "falscheZahlen":["1", "2", "3", "4", "5", "6", "7", "8", "9"]
     }
+
   ],
 
   "manuelleFragen": []
