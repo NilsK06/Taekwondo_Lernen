@@ -1,0 +1,263 @@
+body{
+  font-family: system-ui;
+  background:#f7f5ea;
+  margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.container{
+  width:800px;
+  background:white;
+  padding:40px;
+  border-radius:12px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.title{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:30px;
+}
+
+.logo{ height:50px; }
+
+/* Kategorien */
+.categoryGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.categoryCard {
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 1.4rem;
+  background: #fafafa;
+  color: #111;
+  cursor: pointer;
+  min-height: 120px;
+
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.categoryCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,.12);
+  border-color: #bfc7d6;
+}
+
+.categoryIcon {
+  font-size: 2rem;
+  margin-bottom: .25rem;
+}
+
+.categoryCard strong {
+  font-size: 1.15rem;
+  color: #111827;
+}
+
+.categoryCard small {
+  color: #6b7280;
+  font-size: .9rem;
+  line-height: 1.35;
+}
+
+/* Buttons */
+button{
+  background:#2f6fe4;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  border-radius:8px;
+}
+
+button.secondary{
+  background:#ddd;
+  color:black;
+}
+
+.secondary:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,.12);
+  border-color: #bfc7d6;
+}
+
+.start:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,.12);
+  border-color: #bfc7d6;
+}
+
+/* Layout */
+.row{
+  display:flex;
+  gap:10px;
+  margin:15px 0;
+}
+
+.hidden{ display:none; }
+
+progress{
+  width:100%;
+  margin:10px 0;
+}
+
+.feedback{
+  background:#fff;
+  border:1px solid #ccc;
+  padding:10px;
+  border-radius:8px;
+}
+
+label, .lvl{
+  font-weight: bold;
+}
+
+.answers button {
+  background: #f8fafc;
+  color: #111;
+  border: 1px solid #d1d5db;
+}
+
+.answers button:hover {
+  background: #eef2ff;
+  border-color: #a5b4fc;
+}
+.answers {
+  display: flex;
+  gap: 0.75rem; /* 👈 Abstand zwischen Antworten */
+  margin-top: 1rem;
+}
+
+.answers button {
+  width: 100%;
+  text-align: center;
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.6rem;
+}
+
+/* Drag & Drop */
+.dragWrap{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:1rem;
+  margin-top:1rem;
+}
+
+.dragBank{
+  background:#f0f4ff;
+  border:2px dashed #c7d2fe;
+  padding:.75rem;
+  border-radius:.6rem;
+  min-height:90px;
+}
+
+.slotsWrap{
+  display:grid;
+  gap:.75rem;
+}
+
+.dropSlot{
+  background:#f8fafc;
+  border:2px dashed #cbd5e1;
+  border-radius:.6rem;
+  padding:.6rem;
+}
+
+.slotLabel{
+  font-weight:700;
+  margin-bottom:.4rem;
+}
+
+.slotContent{
+  min-height:48px;
+  background:#eef2ff;
+  border-radius:.5rem;
+  padding:.4rem;
+  display:flex;
+  align-items:center;
+  gap:.35rem;
+  flex-wrap:wrap;
+}
+
+.draggable{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:.45rem .75rem;
+  background:#e0e7ff;
+  border-radius:999px;
+  cursor:grab;
+  user-select:none;
+}
+
+.multiAnswers {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.multiOption {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  background: #f8fafc;
+  border: 1px solid #d1d5db;
+  border-radius: .6rem;
+  padding: .75rem .9rem;
+  cursor: pointer;
+}
+
+.multiOption input {
+  transform: scale(1.2);
+}
+
+/* Eingabefelder */
+.gapInput, .listInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.9rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #f8fafc;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #111827;
+  transition: border-color .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+/* Größeres Textfeld */
+.listInput {
+  min-height: 150px;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+/* Fokus */
+.gapInput:focus, .listInput:focus {
+  outline: none;
+  border-color: #93c5fd;
+  background: white;
+  box-shadow: 0 0 0 4px rgba(59,130,246,.12);
+}
+
+/* Placeholder */
+.gapInput::placeholder, .listInput::placeholder {
+  color: #9ca3af;
+}
+.questionCard {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.4rem;
+  margin-top: 1rem;
+}

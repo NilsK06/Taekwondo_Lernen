@@ -126,7 +126,7 @@
       "falschesKoreanisch":["An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
 
       "deutsch":["Äußerer Unterarm"],
-      "falschesDeutsch":["Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellenbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hacke"]
+      "falschesDeutsch":["Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
     },
 
     /*
@@ -141,7 +141,7 @@
       "falschesKoreanisch":["Bakat Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
 
       "deutsch":["Innerer Unterarm"],
-      "falschesDeutsch":["Äußerer Unterarm", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellenbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hacke"]
+      "falschesDeutsch":["Äußerer Unterarm", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
     },
 
     /*
@@ -156,7 +156,7 @@
       "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
 
       "deutsch":["Hand"],
-      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellenbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hacke"]
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
     },
 
     /*
@@ -171,7 +171,13 @@
       "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
 
       "deutsch":["Handkante"],
-      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellenbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hacke"]
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"],
+
+      "hangul": "손칼",
+      "bild": "images/itf-logo-back-database.png",
+      "bildbeschreibung": "Testbild für Sonkal",
+      "audio":"./audio"
+
     },
 
     /*
@@ -186,7 +192,7 @@
       "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
 
       "deutsch":["Innenhandkante"],
-      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellenbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hacke"]
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
     },
 
     /*
@@ -201,7 +207,412 @@
       "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
 
       "deutsch":["Fingerspitzen"],
-      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellenbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hacke"]
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Sonbadak
+    */
+    {
+      "id":"sonbadak",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Sonbadak"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Handfläche"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Son Dung
+    */
+    {
+      "id":"sondung",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Son Dung"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Handrücken"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Sonkarak
+    */
+    {
+      "id":"sonkarak",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Sonkarak"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Finger"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Bandalson
+    */
+    {
+      "id":"bandalson",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Bandalson"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Bogenhand"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Hanulson
+    */
+    {
+      "id":"hanulson",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Hanulson"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Himmelshand"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Joomuk
+    */
+    {
+      "id":"joomuk",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Joomuk"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Faust"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Ap Joomuk
+    */
+    {
+      "id":"apjoomuk",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Ap Joomuk"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Vorderfaust"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Dung Joomuk
+    */
+    {
+      "id":"dungjoomuk",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Dung Joomuk"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Faustrücken"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Yop Joomuk
+    */
+    {
+      "id":"yopjoomuk",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Yop Joomuk"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Seitliche Faust"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Mit Joomuk
+    */
+    {
+      "id":"mitjoomuk",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Mit Joomuk"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Faustunterseite"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Pyun Joomuk
+    */
+    {
+      "id":"pyunjoomuk",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Pyun Joomuk"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Hanballen"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Ghin Joomuk
+    */
+    {
+      "id":"ghinjoomuk",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Ghin Joomuk"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Lange Faust"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Inji Joomuk
+    */
+    {
+      "id":"injijoomuk",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Inji Joomuk"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Zeigefinger Knöchelfaust"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Choongi Joomuk
+    */
+    {
+      "id":"choongi Joomuk",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Choongi Joomuk"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Mittelfunger Knöchelfaust"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Umji Joomuk
+    */
+    {
+      "id":"umjijoomuk",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Umji Joomuk"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Daumen Knöchelfaust"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Mori
+    */
+    {
+      "id":"mori",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Mori"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Kopf"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Murup
+    */
+    {
+      "id":"murup",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Murup"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Knie"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Palkup
+    */
+    {
+      "id":"palkup",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Palkup"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Ellbogen"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Bal
+    */
+    {
+      "id":"bal",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Bal"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Fuß"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Balkal
+    */
+    {
+      "id":"balkal",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Balkal"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Fußkante"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Balkal Dung
+    */
+    {
+      "id":"balkaldung",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Balkal Dung"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Fußinnenkante"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Baldung
+    */
+    {
+      "id":"baldung",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Baldung"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Spann"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Balbadak
+    */
+    {
+      "id":"balbadak",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Balbadak"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balkarak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Fußunterseite"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Zehen", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Balkarak
+    */
+    {
+      "id":"balkarak",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Balkarak"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Ap Kumchi", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Zehen"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Fußballen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Ap Kumchi
+    */
+    {
+      "id":"apkumchi",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Ap Kumchi"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Dwit Kumchi", "Dwitchook"],
+
+      "deutsch":["Fußballen"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Untere Ferse", "Hintere Ferse"]
+    },
+
+    /*
+    Dwit Kumchi
+    */
+    {
+      "id":"dwitkumchi",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Dwit Kumchi"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwitchook"],
+
+      "deutsch":["Uuntere Ferse"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Hintere Ferse"]
+    },
+
+    /*
+    Dwitchook
+    */
+    {
+      "id":"dwitchook",
+      "kategorie":"technik",
+      "graduierungen":["k10", "k9", "k8", "k7", "k6", "k5", "k4", "k3", "k2", "k1", "d1"],
+
+      "koreanisch":["Dwitchook"],
+      "falschesKoreanisch":["Bakat Palmok", "An Palmok", "Son", "Sonkal", "Sonkal Dung", "Sonkut", "Sonbadak", "Son dung", "Sonkarak", "Bandalson", "Hanulson", "Joomuk", "Ap Joomuk", "Dung Joomuk", "Yop Joomuk", "Mit Joomuk", "Pyun Joomuk", "Ghin Joomuk", "Inji Joomuk", "Choongi Joomuk", "Umji Joomuk", "Mori", "Murup", "Palkup", "Bal", "Balkal", "Balkal Dung", "Baldung", "Balbadak", "Balkarak", "Ap Kumchi", "Dwit Kumchi"],
+
+      "deutsch":["Hintere Ferse"],
+      "falschesDeutsch":["Äußerer Unterarm", "Innerer Unterarmẞ", "Hand", "Handkante", "Innenhandkante", "Fingerspitzen", "Handfläche", "Handrücken", "Finger", "Bogenhand", "Himmelshand", "Faust", "Vorderfaust", "Faustrücken", "Seitliche Faust", "Faustunterseite", "Handballen", "Lange Faust", "Zeigefinger Knöchelfaust", "Mittelfinger Knöchelfaust", "Daumen Knöchelfaust", "Kopf", "Knie", "Ellbogen", "Fuß", "Fußkante", "Fußinnenkante", "Spann", "Fußunterseite", "Zehen", "Fußballen", "Untere Ferse"]
     }
 
   ],
@@ -619,7 +1030,7 @@
       "winkelVordererFuß":["Gerade"],
       "winkelHintererFuß":["25° nach außen", "25 Grad nach außen"],
 
-      "MPLV":["Hacke"],
+      "MPLV":["Hintere Ferse"],
       "MPLH":["Zehen", "Zehenspitzen"],
 
       "MPBL":["Fußachse"],

@@ -290,6 +290,59 @@ function shuffle(array) {
   return array;
 }
 
+// Medien werden nur der Frage aus dem aktuell
+// verarbeiteten Wissenseintrag zugeordnet.
+
+let activeKnowledgeEntry = null;
+
+function forEachKnowledge(entries, createQuestions) {
+  for (const entry of entries) {
+    const previous = activeKnowledgeEntry;
+    activeKnowledgeEntry = entry;
+
+    try {
+      createQuestions(entry);
+    } finally {
+      activeKnowledgeEntry = previous;
+    }
+  }
+}
+
+function getMediaFields(entry) {
+  if (!entry) return {};
+
+  const bild = first(entry.bild ?? entry.image);
+  const bildbeschreibung = first(
+    entry.bildbeschreibung ?? entry.imageAlt
+  );
+  const audiodatei = first(
+    entry.audiodatei ?? entry.audio
+  );
+  const hangul = first(
+    entry.hangul ?? entry.hangeul
+  );
+
+  if (!bild && !audiodatei && !hangul) return {};
+
+  const koreanTerm = first(
+    entry.koreanTerm ??
+    entry.korean ??
+    entry.koreanisch ??
+    entry.name
+  );
+
+  return {
+    ...(koreanTerm ? { koreanTerm } : {}),
+    ...(hangul ? { hangul } : {}),
+    ...(bild ? { bild } : {}),
+    ...(bildbeschreibung ? { bildbeschreibung } : {}),
+    ...(audiodatei ? { audiodatei } : {}),
+    ...((entry.medienVorAntwort ?? entry.mediaBefore) === true
+      ? { medienVorAntwort: true }
+      : {})
+  };
+}
+
 function addQuestion(category, grades, question) {
   const gradeList = asArray(grades);
 
@@ -317,8 +370,13 @@ function addQuestion(category, grades, question) {
       return;
     }
 
+    const questionWithMedia = {
+      ...getMediaFields(activeKnowledgeEntry),
+      ...question
+    };
+
     output[category][normalizedGrade].push(
-      JSON.parse(JSON.stringify(question))
+      JSON.parse(JSON.stringify(questionWithMedia))
     );
   });
 }
@@ -534,7 +592,7 @@ const allKoreanCommands =
     asArray(entry.korean)
   );
 
-commands.forEach(entry => {
+forEachKnowledge(commands, entry => {
   const koreanMain =
     first(entry.korean);
 
@@ -590,7 +648,7 @@ const allTechniqueTools =
     asArray(entry.tool)
   );
 
-techniques.forEach(entry => {
+forEachKnowledge(techniques, entry => {
   const koreanMain =
     first(entry.korean);
 
@@ -680,7 +738,7 @@ const allKoreanStances =
     asArray(entry.korean)
   );
 
-stances.forEach(entry => {
+forEachKnowledge(stances, entry => {
   const koreanMain =
     first(entry.korean);
 
@@ -911,7 +969,7 @@ function processTermSection(entries) {
       asArray(entry.korean)
     );
 
-  entries.forEach(entry => {
+  forEachKnowledge(entries, entry => {
     const koreanMain =
       first(entry.korean);
 
@@ -962,7 +1020,7 @@ const allPrincipleNames =
     asArray(entry.name)
   );
 
-principles.forEach(entry => {
+forEachKnowledge(principles, entry => {
   const nameMain =
     first(entry.name);
 
@@ -1003,7 +1061,7 @@ principles.forEach(entry => {
    REGELN
    ========================================================= */
 
-rules.forEach(entry => {
+forEachKnowledge(rules, entry => {
   const correctAnswers =
     asArray(entry.correct);
 
@@ -1040,6 +1098,7 @@ rules.forEach(entry => {
     );
   }
 });
+
 /* =========================================================
    FORMEN / TUL
    ========================================================= */
@@ -1054,7 +1113,7 @@ const allPatternMeanings =
     asArray(entry.meaning)
   );
 
-patterns.forEach(entry => {
+forEachKnowledge(patterns, entry => {
   const nameMain =
     first(entry.name);
 
@@ -1120,7 +1179,7 @@ const allBeltMeanings =
     asArray(entry.meaning)
   );
 
-beltMeanings.forEach(entry => {
+forEachKnowledge(beltMeanings, entry => {
   const beltMain =
     first(entry.belt);
 
@@ -1152,7 +1211,7 @@ beltMeanings.forEach(entry => {
    PRÜFUNGSSITUATIONEN
    ========================================================= */
 
-examSituations.forEach(entry => {
+forEachKnowledge(examSituations, entry => {
   const correctAnswers =
     asArray(entry.correct);
 
@@ -1204,7 +1263,7 @@ const allNumberValues =
     asArray(entry.number).map(String)
   );
 
-koreanNumbers.forEach(entry => {
+forEachKnowledge(koreanNumbers, entry => {
   const koreanMain =
     first(entry.korean);
 
@@ -1245,7 +1304,7 @@ koreanNumbers.forEach(entry => {
    MANUELLE FRAGEN
    ========================================================= */
 
-manualQuestions.forEach(entry => {
+forEachKnowledge(manualQuestions, entry => {
   const {
     category,
     grades,

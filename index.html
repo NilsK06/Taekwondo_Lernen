@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lernquiz</title>
   <link rel="icon" href="./images/1_1751383456.png" type="icon">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
@@ -42,6 +42,15 @@
           <strong>Prüfung</strong>
           <small>Vorbereitung</small>
         </div>
+
+        <!-- Neuer Lernbereich: öffnet das Nachschlagewerk -->
+        <a class="categoryCard" href="lernen.html"
+           style="grid-column: 1 / -1; min-height: 110px; text-decoration: none;"
+           aria-label="Lernbereich öffnen – Begriffe, Techniken und Theorie nachlesen">
+          <span class="categoryIcon">📚</span>
+          <strong>Lernbereich</strong>
+          <small>Begriffe, Techniken und Theorie nachlesen</small>
+        </a>
       </div>
     </div>
 
@@ -64,13 +73,13 @@
         <select id="difficulty">
           <option value="k10">10 Kup</option>
           <option value="k9">9 Kup</option>
-          <option value="k8" >8 Kup</option>
+          <option value="k8">8 Kup</option>
           <option value="k7">7 Kup</option>
-          <option value="k6" >6 Kup</option>
+          <option value="k6">6 Kup</option>
           <option value="k5">5 Kup</option>
-          <option value="k4" >4 Kup</option>
+          <option value="k4">4 Kup</option>
           <option value="k3">3 Kup</option>
-          <option value="k2" >2 Kup</option>
+          <option value="k2">2 Kup</option>
           <option value="k1">1 Kup</option>
           <option value="D1">ab 1 Dan</option>
         </select>

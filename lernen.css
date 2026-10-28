@@ -1,0 +1,1188 @@
+/* ==========================================================
+   ITF TAEKWON-DO – LERNBEREICH
+
+   Design passend zur Startseite:
+   - Marineblau
+   - ITF-Blau
+   - Weiß
+   - Hellgrau
+   - Rote Akzente
+
+   Übersichtliche Lernkarten
+   ========================================================== */
+
+
+/* ==========================================================
+   1. FARBEN UND GRUNDEINSTELLUNGEN
+   ========================================================== */
+
+:root {
+
+  --ink: #14233f;
+
+  --text: #1b2335;
+
+  --muted: #5f6b82;
+
+  --paper: #eceff5;
+
+  --surface: #ffffff;
+
+  --surface-2: #f6f8fc;
+
+  --line: #d9dfea;
+
+  --line-strong: #b9c3d6;
+
+  --blue: #1f4fbf;
+
+  --blue-dark: #173c94;
+
+  --blue-soft: #e6edfb;
+
+  --red: #c8283a;
+
+  --bad: #b42318;
+
+  --bad-soft: #fdecea;
+
+  --radius-s: 8px;
+
+  --radius-m: 12px;
+
+  --radius-l: 18px;
+
+  --shadow:
+    0 1px 2px rgba(20, 35, 63, 0.06),
+    0 12px 32px rgba(20, 35, 63, 0.10);
+
+  --font:
+    "Inter",
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    Arial,
+    sans-serif;
+
+}
+
+
+*,
+*::before,
+*::after {
+
+  box-sizing: border-box;
+
+}
+
+
+body {
+
+  margin: 0;
+
+  min-height: 100vh;
+
+  padding: 28px 16px;
+
+  font-family: var(--font);
+
+  color: var(--text);
+
+  line-height: 1.5;
+
+  background:
+    radial-gradient(
+      900px 400px at 50% -120px,
+      #dfe6f5 0%,
+      transparent 70%
+    ),
+    var(--paper);
+
+}
+
+
+button,
+input,
+select {
+
+  font-family: inherit;
+
+}
+
+
+button,
+a,
+summary {
+
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+select:focus-visible {
+
+  outline: 3px solid rgba(31, 79, 191, 0.35);
+
+  outline-offset: 3px;
+
+}
+
+
+[hidden] {
+
+  display: none !important;
+
+}
+
+
+/* ==========================================================
+   2. HAUPTCONTAINER
+
+   Derselbe weiße Container wie auf der Startseite.
+   ========================================================== */
+
+.learn-shell {
+
+  position: relative;
+
+  width: 100%;
+
+  max-width: 800px;
+
+  margin: 0 auto;
+
+  padding: 32px 36px 40px;
+
+  background: var(--surface);
+
+  border-radius: var(--radius-l);
+
+  box-shadow: var(--shadow);
+
+  overflow: hidden;
+
+}
+
+
+/* FARBIGER GÜRTELSTREIFEN */
+
+.learn-shell::before {
+
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  height: 6px;
+
+  background: linear-gradient(
+    90deg,
+
+    #ffffff 0%,
+    #ffffff 16.66%,
+
+    #f5c400 16.66%,
+    #f5c400 33.33%,
+
+    #1f9d4d 33.33%,
+    #1f9d4d 50%,
+
+    #1f4fbf 50%,
+    #1f4fbf 66.66%,
+
+    #c8283a 66.66%,
+    #c8283a 83.33%,
+
+    #111111 83.33%,
+    #111111 100%
+  );
+
+  box-shadow: inset 0 -1px 0 var(--line);
+
+}
+
+
+/* ==========================================================
+   3. ZURÜCK ZUM QUIZ
+   ========================================================== */
+
+.back-link {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  margin-bottom: 22px;
+
+  padding: 8px 12px;
+
+  color: var(--blue-dark);
+
+  background: var(--blue-soft);
+
+  border: 1px solid #cbd9f5;
+
+  border-radius: var(--radius-s);
+
+  font-size: 0.85rem;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition: background 0.2s;
+
+}
+
+
+.back-link:hover {
+
+  background: #d8e5ff;
+
+}
+
+
+/* ==========================================================
+   4. KOPFBEREICH
+   ========================================================== */
+
+.learn-header {
+
+  margin-bottom: 24px;
+
+}
+
+
+/* LOGO UND ÜBERSCHRIFT */
+
+.title {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-bottom: 18px;
+
+  padding-bottom: 18px;
+
+  border-bottom: 1px solid var(--line);
+
+}
+
+
+/* WICHTIG: LOGO KLEIN HALTEN */
+
+.logo,
+.title img {
+
+  display: block;
+
+  width: auto;
+
+  height: 50px;
+
+  max-width: 65px;
+
+  max-height: 50px;
+
+  object-fit: contain;
+
+  flex-shrink: 0;
+
+}
+
+
+/* HAUPTÜBERSCHRIFT */
+
+h1 {
+
+  margin: 0;
+
+  color: var(--ink);
+
+  font-size: 1.8rem;
+
+  font-weight: 750;
+
+  letter-spacing: -0.02em;
+
+  line-height: 1.2;
+
+}
+
+
+/* EINLEITUNG */
+
+.learn-intro {
+
+  margin: 0 0 6px;
+
+  color: var(--ink);
+
+  font-size: 1rem;
+
+  font-weight: 650;
+
+}
+
+
+.learn-description {
+
+  margin: 0;
+
+  color: var(--muted);
+
+  font-size: 0.9rem;
+
+  line-height: 1.6;
+
+}
+
+
+/* ==========================================================
+   5. ABSCHNITTSÜBERSCHRIFTEN
+   ========================================================== */
+
+.section-heading {
+
+  margin: 0 0 16px;
+
+  color: var(--ink);
+
+  font-size: 1.15rem;
+
+  font-weight: 700;
+
+}
+
+
+/* ==========================================================
+   6. FILTERBEREICH
+   ========================================================== */
+
+.filter-panel {
+
+  margin-bottom: 26px;
+
+  padding: 20px;
+
+  background: var(--surface-2);
+
+  border: 1px solid var(--line);
+
+  border-radius: var(--radius-m);
+
+}
+
+
+/* FILTER IN ZWEI SPALTEN */
+
+.filter-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 14px;
+
+}
+
+
+/* FILTERFELDER */
+
+.filter-field {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 6px;
+
+  min-width: 0;
+
+}
+
+
+.filter-field > span {
+
+  color: var(--ink);
+
+  font-size: 0.85rem;
+
+  font-weight: 650;
+
+}
+
+
+/* SUCHE ÜBER GESAMTE BREITE */
+
+.search-field {
+
+  grid-column: 1 / -1;
+
+}
+
+
+/* THEMENBEREICH ÜBER GESAMTE BREITE */
+
+.topic-field {
+
+  grid-column: 1 / -1;
+
+}
+
+
+/* ==========================================================
+   7. EINGABEFELDER
+   ========================================================== */
+
+.filter-field input,
+.filter-field select {
+
+  width: 100%;
+
+  min-width: 0;
+
+  padding: 10px 12px;
+
+  background: var(--surface);
+
+  color: var(--text);
+
+  border: 1px solid var(--line-strong);
+
+  border-radius: var(--radius-s);
+
+  font-size: 0.9rem;
+
+}
+
+
+.filter-field input:focus,
+.filter-field select:focus {
+
+  outline: none;
+
+  border-color: var(--blue);
+
+  box-shadow:
+    0 0 0 3px rgba(31, 79, 191, 0.12);
+
+}
+
+
+.filter-field input::placeholder {
+
+  color: #8d98ad;
+
+}
+
+
+/* ==========================================================
+   8. FILTER-FUSSZEILE
+   ========================================================== */
+
+.filter-footer {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+
+  gap: 12px;
+
+  margin-top: 18px;
+
+  padding-top: 14px;
+
+  border-top: 1px solid var(--line);
+
+}
+
+
+#trefferzahl {
+
+  margin: 0;
+
+  color: var(--muted);
+
+  font-size: 0.85rem;
+
+}
+
+
+/* FILTER ZURÜCKSETZEN */
+
+.reset-button {
+
+  padding: 9px 12px;
+
+  background: var(--surface);
+
+  color: var(--ink);
+
+  border: 1px solid var(--line-strong);
+
+  border-radius: var(--radius-s);
+
+  font-size: 0.85rem;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+}
+
+
+.reset-button:hover {
+
+  background: var(--blue-soft);
+
+  border-color: var(--blue);
+
+}
+
+
+/* ==========================================================
+   9. BEREICH FÜR LERNKARTEN
+
+   WICHTIG:
+   Hellblauer Hintergrund, damit sich die
+   weißen Karten deutlich abheben.
+   ========================================================== */
+
+.learning-section {
+
+  margin-top: 10px;
+
+}
+
+
+/* LERNKARTEN UNTEREINANDER */
+
+.learn-grid {
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: 12px;
+
+  padding: 16px;
+
+  background: #eef2f8;
+
+  border: 1px solid #d5deec;
+
+  border-radius: var(--radius-m);
+
+}
+
+
+/* ==========================================================
+   10. EINZELNE LERNKARTE
+
+   Deutliche Umrandung und Schatten.
+   ========================================================== */
+
+.learn-card {
+
+  position: relative;
+
+  min-width: 0;
+
+  background: #ffffff;
+
+  border: 1px solid #bccbe0;
+
+  border-radius: var(--radius-m);
+
+  box-shadow:
+    0 2px 6px rgba(20, 35, 63, 0.07);
+
+  overflow: hidden;
+
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+
+}
+
+
+/* HOVER */
+
+.learn-card:hover {
+
+  border-color: var(--blue);
+
+  box-shadow:
+    0 4px 12px rgba(31, 79, 191, 0.12);
+
+}
+
+
+/* GEÖFFNETE KARTE */
+
+.learn-card[open] {
+
+  border: 2px solid var(--blue);
+
+  box-shadow:
+    0 5px 14px rgba(31, 79, 191, 0.12);
+
+}
+
+
+/* ==========================================================
+   11. ANKLICKBARER KARTENKOPF
+   ========================================================== */
+
+.learn-card summary {
+
+  position: relative;
+
+  display: block;
+
+  padding: 15px 18px 15px 22px;
+
+  cursor: pointer;
+
+  list-style: none;
+
+}
+
+
+/* STANDARDPFEIL AUSBLENDEN */
+
+.learn-card summary::-webkit-details-marker {
+
+  display: none;
+
+}
+
+
+/* BLAUER BALKEN LINKS */
+
+.learn-card summary::before {
+
+  content: "";
+
+  position: absolute;
+
+  top: 12px;
+
+  bottom: 12px;
+
+  left: 0;
+
+  width: 4px;
+
+  background: var(--line-strong);
+
+  border-radius: 0 4px 4px 0;
+
+}
+
+
+.learn-card:hover summary::before,
+.learn-card[open] summary::before {
+
+  background: var(--blue);
+
+}
+
+
+/* ==========================================================
+   12. KARTENKOPF-INHALT
+   ========================================================== */
+
+.card-top {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 10px;
+
+}
+
+
+/* THEMEN-ABZEICHEN */
+
+.card-badge {
+
+  display: inline-block;
+
+  padding: 4px 9px;
+
+  background: var(--blue-soft);
+
+  color: var(--blue-dark);
+
+  border-radius: 999px;
+
+  font-size: 0.72rem;
+
+  font-weight: 700;
+
+}
+
+
+/* PLUS-SYMBOL */
+
+.expand-icon {
+
+  color: var(--blue);
+
+  font-size: 1.3rem;
+
+  line-height: 1;
+
+  transition: transform 0.2s;
+
+}
+
+
+.learn-card[open] .expand-icon {
+
+  transform: rotate(45deg);
+
+}
+
+
+/* ==========================================================
+   13. TITEL UND UNTERTITEL
+   ========================================================== */
+
+.card-title {
+
+  margin: 10px 0 3px;
+
+  color: var(--ink);
+
+  font-size: 1.05rem;
+
+  font-weight: 700;
+
+  line-height: 1.4;
+
+  overflow-wrap: anywhere;
+
+}
+
+
+.card-subtitle {
+
+  margin: 0;
+
+  color: var(--muted);
+
+  font-size: 0.87rem;
+
+  line-height: 1.5;
+
+}
+
+
+.card-hangul {
+
+  margin: 6px 0 0;
+
+  color: var(--blue-dark);
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+}
+
+
+/* ==========================================================
+   14. GEÖFFNETER KARTENINHALT
+   ========================================================== */
+
+.card-details {
+
+  padding: 18px 20px;
+
+  background: #f8faff;
+
+  border-top: 1px solid #d9e3f3;
+
+}
+
+
+/* DETAILLISTE */
+
+.detail-list {
+
+  display: grid;
+
+  gap: 13px;
+
+  margin: 0;
+
+}
+
+
+/* EINZELNE INFORMATION */
+
+.detail-row {
+
+  min-width: 0;
+
+}
+
+
+.detail-row dt {
+
+  margin-bottom: 3px;
+
+  color: var(--blue-dark);
+
+  font-size: 0.8rem;
+
+  font-weight: 700;
+
+}
+
+
+.detail-row dd {
+
+  margin: 0;
+
+  color: var(--text);
+
+  font-size: 0.9rem;
+
+  line-height: 1.6;
+
+  overflow-wrap: anywhere;
+
+}
+
+
+/* AUFZÄHLUNGEN */
+
+.detail-row ul {
+
+  margin: 6px 0 0;
+
+  padding-left: 20px;
+
+}
+
+
+.detail-row li {
+
+  margin-bottom: 4px;
+
+}
+
+
+/* ==========================================================
+   15. BILDER
+   ========================================================== */
+
+.learn-image {
+
+  display: block;
+
+  width: 100%;
+
+  max-height: 260px;
+
+  margin-top: 16px;
+
+  background: white;
+
+  object-fit: contain;
+
+  border: 1px solid var(--line);
+
+  border-radius: var(--radius-s);
+
+}
+
+
+.image-caption {
+
+  margin: 7px 0 0;
+
+  color: var(--muted);
+
+  font-size: 0.8rem;
+
+}
+
+
+/* ==========================================================
+   16. AUDIO-BUTTON
+   ========================================================== */
+
+.audio-button {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-top: 16px;
+
+  padding: 10px 14px;
+
+  background: var(--blue);
+
+  color: #ffffff;
+
+  border: none;
+
+  border-radius: var(--radius-s);
+
+  font-size: 0.85rem;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s,
+    transform 0.2s;
+
+}
+
+
+.audio-button:hover {
+
+  background: var(--blue-dark);
+
+  transform: translateY(-1px);
+
+}
+
+
+/* ==========================================================
+   17. KEINE SUCHERGEBNISSE
+   ========================================================== */
+
+.empty-message {
+
+  margin: 0;
+
+  padding: 28px 18px;
+
+  background: white;
+
+  color: var(--muted);
+
+  border: 1px dashed var(--line-strong);
+
+  border-radius: var(--radius-m);
+
+  text-align: center;
+
+  font-size: 0.9rem;
+
+}
+
+
+/* ==========================================================
+   18. FEHLERMELDUNGEN
+   ========================================================== */
+
+.error-message {
+
+  margin-top: 20px;
+
+  padding: 16px;
+
+  background: var(--bad-soft);
+
+  color: var(--bad);
+
+  border: 1px solid var(--bad);
+
+  border-radius: var(--radius-m);
+
+  font-size: 0.9rem;
+
+}
+
+
+/* ==========================================================
+   19. FUSSZEILE
+   ========================================================== */
+
+.learn-footer {
+
+  margin-top: 30px;
+
+  padding-top: 18px;
+
+  border-top: 1px solid var(--line);
+
+  color: var(--muted);
+
+  text-align: center;
+
+  font-size: 0.8rem;
+
+}
+
+
+.learn-footer p {
+
+  margin: 0 0 4px;
+
+  color: var(--ink);
+
+  font-weight: 700;
+
+}
+
+
+.learn-footer small {
+
+  color: var(--muted);
+
+}
+
+
+/* ==========================================================
+   20. RESPONSIVE DESIGN
+   ========================================================== */
+
+@media (max-width: 640px) {
+
+  body {
+
+    padding: 12px;
+
+  }
+
+
+  .learn-shell {
+
+    padding: 26px 18px 28px;
+
+  }
+
+
+  .logo,
+  .title img {
+
+    height: 42px;
+
+    max-width: 55px;
+
+    max-height: 42px;
+
+  }
+
+
+  h1 {
+
+    font-size: 1.45rem;
+
+  }
+
+
+  .filter-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+
+  .search-field,
+  .topic-field {
+
+    grid-column: auto;
+
+  }
+
+
+  .filter-panel {
+
+    padding: 16px;
+
+  }
+
+
+  .filter-footer {
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+  }
+
+
+  .reset-button {
+
+    width: 100%;
+
+  }
+
+
+  .learn-grid {
+
+    padding: 10px;
+
+    gap: 10px;
+
+  }
+
+
+  .learn-card summary {
+
+    padding: 14px 14px 14px 19px;
+
+  }
+
+
+  .card-details {
+
+    padding: 16px;
+
+  }
+
+}
+
+
+/* ==========================================================
+   21. REDUZIERTE ANIMATIONEN
+   ========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+
+    transition: none !important;
+
+    animation: none !important;
+
+  }
+
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Lernbereich | ITF Taekwon-Do</title>
+
+  <link
+    rel="icon"
+    href="./images/1_1751383456.png"
+    type="image/png"
+  >
+
+  <link rel="stylesheet" href="lernen.css">
+
+  <script src="lernen.js" defer></script>
+</head>
+
+<body>
+
+  <!--
+    Der Lernbereich verwendet dieselbe
+    Container-Klasse wie die Startseite.
+  -->
+
+  <div class="container learn-shell">
+
+    <!-- ZURÜCK ZUM QUIZ -->
+
+    <a href="index.html" class="back-link">
+      ← Zurück zum Quiz
+    </a>
+
+
+    <!-- KOPFBEREICH -->
+
+    <header class="learn-header">
+
+      <div class="title">
+
+        <img
+          src="./images/itf-logo-back-database.png"
+          alt="ITF Taekwon-Do Logo"
+          class="logo"
+        >
+
+        <h1>Lernbereich</h1>
+
+      </div>
+
+      <p class="learn-intro">
+        Willkommen in deinem digitalen
+        ITF-Taekwon-Do-Nachschlagewerk!
+      </p>
+
+      <p class="learn-description">
+        Hier kannst du koreanische Begriffe,
+        Techniken, Stellungen, Theorie und
+        Prüfungswissen nachlesen.
+      </p>
+
+    </header>
+
+
+    <!-- HAUPTINHALT -->
+
+    <main>
+
+      <!-- SUCHEN UND FILTERN -->
+
+      <section
+        class="filter-panel"
+        aria-label="Lernstoff filtern"
+      >
+
+        <h2 class="section-heading">
+          📚 Was möchtest du lernen?
+        </h2>
+
+
+        <div class="filter-grid">
+
+          <!-- SUCHE -->
+
+          <label class="filter-field search-field">
+
+            <span>🔎 Begriff suchen</span>
+
+            <input
+              id="suche"
+              type="search"
+              placeholder="z. B. Sonkal, Chon-Ji ..."
+              autocomplete="off"
+            >
+
+          </label>
+
+
+          <!-- KATEGORIE -->
+
+          <label class="filter-field">
+
+            <span>Kategorie</span>
+
+            <select id="kategorie">
+
+              <option value="alle">
+                Alle Kategorien
+              </option>
+
+              <option value="grundlagen">
+                🥋 Grundlagen
+              </option>
+
+              <option value="theorie">
+                📘 Theorie
+              </option>
+
+              <option value="technik">
+                👊 Techniken
+              </option>
+
+              <option value="pruefung">
+                🏆 Prüfung
+              </option>
+
+            </select>
+
+          </label>
+
+
+          <!-- GRADUIERUNG -->
+
+          <label class="filter-field">
+
+            <span>Graduierung</span>
+
+            <select id="graduierung">
+
+              <option value="alle">
+                Alle Graduierungen
+              </option>
+
+              <option value="k10">
+                10. Kup – Weiß
+              </option>
+
+              <option value="k9">
+                9. Kup – Weiß-Gelb
+              </option>
+
+              <option value="k8">
+                8. Kup – Gelb
+              </option>
+
+              <option value="k7">
+                7. Kup – Gelb-Grün
+              </option>
+
+              <option value="k6">
+                6. Kup – Grün
+              </option>
+
+              <option value="k5">
+                5. Kup – Grün-Blau
+              </option>
+
+              <option value="k4">
+                4. Kup – Blau
+              </option>
+
+              <option value="k3">
+                3. Kup – Blau-Rot
+              </option>
+
+              <option value="k2">
+                2. Kup – Rot
+              </option>
+
+              <option value="k1">
+                1. Kup – Rot-Schwarz
+              </option>
+
+              <option value="d1">
+                Ab 1. Dan
+              </option>
+
+            </select>
+
+          </label>
+
+
+          <!-- THEMENBEREICH -->
+
+          <label class="filter-field topic-field">
+
+            <span>Themenbereich</span>
+
+            <select id="thema">
+
+              <option value="alle">
+                Alle Themenbereiche
+              </option>
+
+            </select>
+
+          </label>
+
+        </div>
+
+
+        <!-- FILTER-FUSSZEILE -->
+
+        <div class="filter-footer">
+
+          <p
+            id="trefferzahl"
+            role="status"
+            aria-live="polite"
+          >
+            Lernstoff wird geladen ...
+          </p>
+
+          <button
+            type="button"
+            id="zuruecksetzen"
+            class="secondary reset-button"
+          >
+            Filter zurücksetzen
+          </button>
+
+        </div>
+
+      </section>
+
+
+      <!-- LERNKARTEN -->
+
+      <section class="learning-section">
+
+        <h2 class="section-heading">
+          🥋 Lerninhalte
+        </h2>
+
+        <div
+          id="lernListe"
+          class="learn-grid"
+          aria-label="Lerninhalte"
+        ></div>
+
+      </section>
+
+
+      <!-- FEHLERMELDUNGEN -->
+
+      <p
+        id="fehlermeldung"
+        class="error-message"
+        role="alert"
+        hidden
+      ></p>
+
+    </main>
+
+
+    <!-- FUSSZEILE -->
+
+    <footer class="learn-footer">
+
+      <p>
+        ITF Taekwon-Do Lernquiz
+      </p>
+
+      <small>
+        Lernen · Verstehen · Trainieren
+      </small>
+
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
